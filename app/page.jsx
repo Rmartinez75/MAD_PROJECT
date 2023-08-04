@@ -1,8 +1,10 @@
 
+import MainPage from '@components/pages/MainPage'
+
 const Home = () => {
   return (
     <div>
-      Home
+      <MainPage />
     </div>
   )
 }

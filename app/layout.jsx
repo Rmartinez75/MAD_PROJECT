@@ -1,19 +1,28 @@
 import '@styles/globals.css'
-import { Children } from 'react';
+import HeadNav from '@components/HeadNav'
 
 export const metadata = {
     title: 'MAD',
-    description: ''
+    description: '',
 }
 
 const RootLayout = ({children}) => {
   return (
-    <html Lang='en'>
-        <body>
-            <main className='app'>
-                {children}    
-            </main>   
-        </body>
+    <html lang='en'>
+      
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
+
+      <body>
+
+        <main className='app'>
+          <HeadNav />
+          {children}    
+        </main> 
+
+      </body>
+
     </html>
   )
 }
