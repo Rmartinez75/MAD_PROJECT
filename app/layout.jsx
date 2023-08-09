@@ -1,5 +1,6 @@
 import '@styles/globals.css'
 import HeadNav from '@components/HeadNav'
+import Footer from '@components/Footer'
 
 export const metadata = {
     title: 'MAD',
@@ -18,7 +19,8 @@ const RootLayout = ({children}) => {
 
         <main className='app'>
           <HeadNav />
-          {children}    
+          {children} 
+          <Footer />   
         </main> 
 
       </body>

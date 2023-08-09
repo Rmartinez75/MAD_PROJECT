@@ -16,4 +16,6 @@
     padding: 0;
     margin: 0;   
     font-family: "isocteur";
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
 }
