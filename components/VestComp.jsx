@@ -1,25 +1,23 @@
 
 import Image from 'next/image'
 import '@styles/main-page.css'
-import VestSchema from '@components/VestSchema'
 import Counter from './Counter'
 
 function VestComp() {
-  return (
-    
-    <div id='vest-section'>      
+  return (    
+    <div id='vest-section'>     
       <div className='flex ml-2'>        
-        <div className='p-1 rounded-xl'>
-            <Image src='/assets/images/DSC_1047.jpg' alt='VEST-1' width={400} height={250} />
+        <div className='p-0.5 rounded-xl'>
+            <Image src='/assets/images/DSC_0042.jpeg' alt='VEST-1' width={400} height={250} />
         </div>
-        <div className='p-1 rounded-xl'>
-            <Image src='/assets/images/DSC_1049.jpg' alt='VEST-2' width={400} height={250} />
+        <div className='p-0.5 rounded-xl'>
+            <Image src='/assets/images/DSC_0059.jpeg' alt='VEST-2' width={400} height={250} />
         </div>
-        <div className='p-1 rounded-xl'>
-            <Image src='/assets/images/DSC_1051.jpg' alt='VEST-3' width={400} height={250} />
+        <div className='p-0.5 rounded-xl'>
+            <Image src='/assets/images/DSC_0071.jpeg' alt='VEST-3' width={400} height={250} />
         </div>
         <div className='box-content h-auto w-4/12 pl-2'>
-          <div className=''>
+          <div style={{fontSize: '14px'}}>
           The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
           <br />
           <br />
@@ -27,12 +25,10 @@ function VestComp() {
           </div>          
         </div>
       </div>
-      <div className='vest-schema-div' >
-        <div>
+      <div>
+        <div>          
           <br />
-          <br />
-          <br />
-          <VestSchema />
+          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='pl-10' />
         </div>
       </div>
     </div>
