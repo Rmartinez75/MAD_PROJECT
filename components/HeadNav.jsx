@@ -27,7 +27,7 @@ function HeadNav() {
           </div>
           <div className='text-[#afaeae] space-x-10 pr-5 hidden md:flex mb-2'>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav' >Firm-Wears</Link>
-            <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav'>About</Link>
+            <Link href='/about' className='hover:text-white transition duration-300 right-side-nav' >About</Link>
             <span className='vertical-divider'>|</span>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link> 

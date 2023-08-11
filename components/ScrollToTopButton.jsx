@@ -1,12 +1,29 @@
 
+'use client'
+
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 import '@styles/scrollToTop.css'
 
 function ScrollToTopButton() {
+
+  const [scrollToTopButton, setScrollToTopButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 450){
+        setScrollToTopButton(true)
+      } else {
+        setScrollToTopButton(false)
+      }
+    })
+  }, [])
+
   return (
-    <div className='button-div' id='progress'>
-      <Link href='/' style={{textDecoration: 'none'}}><span className='button'><FaRegArrowAltCircleUp /></span></Link>      
+    <div className='button-div'>
+      {scrollToTopButton && (<Link href='/' style={{textDecoration: 'none'}}><span className='button'><FaRegArrowAltCircleUp /></span></Link>)}
+            
     </div>
   )
 }

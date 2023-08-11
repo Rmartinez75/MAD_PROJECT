@@ -6,7 +6,6 @@ function Footer() {
     <div className='footer'>
         <footer>
             <div className="footer-info">
-            {/* <p className="footer-tagline"><img className="svg" src="logo5.png" alt=""/> Virtual Reflection   </p> */}
             </div>            
             <div className="footer-container-background">               
             <div className="footer-container">                  
