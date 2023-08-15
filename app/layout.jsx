@@ -1,4 +1,5 @@
 import '@styles/globals.css'
+import Head from 'next/head'
 import HeadNav from '@components/HeadNav'
 import Footer from '@components/Footer'
 
@@ -12,7 +13,7 @@ const RootLayout = ({children}) => {
     <html lang='en'>
       
       <head>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.png" sizes='any' />       
       </head>
 
       <body>
