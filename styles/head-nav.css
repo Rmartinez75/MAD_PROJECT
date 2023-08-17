@@ -5,6 +5,20 @@
     padding-top: 5px !important;
 }
 
+.trigger:focus{
+    outline: none;
+}
+.content{
+    width: 200px;
+    background-color: #FFF3F3;
+    box-shadow: 25px 25px 20px 0 #bcb1a4;
+    border-radius: 10px;
+}
+.item:focus{
+    outline: none;
+    background-color: rgb(211, 204, 204);
+}
+
 .logo-nav{
     width: 25px;
     margin-right: 5px;

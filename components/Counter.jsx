@@ -13,7 +13,7 @@ function Counter() {
 
   return (      
         <div className='flex'>
-          <span className="float-left mr-2" onClick={() => setCountUp(countUp + 1)}>{countUp}</span>  <AiFillCaretUp className=' text-red-700 mr-2 mt-1' /><p>Count Up</p> 
+          <span className="float-left mr-2" onClick={() => setCountUp(countUp + 1)}>{countUp}</span>  <AiFillCaretUp className=' text-red-700 mr-2 mt-1' /><p>Up Vote</p> 
           <span className="float-right ml-10 mr-2" onClick={() => setCountDown(countDown + 1)} >{countDown}</span><AiFillCaretDown className="text-red-700 mr-2 mt-1" /><p>Down Vote</p>  
         </div>      
   )

@@ -5,9 +5,10 @@ import '@styles/head-nav.css'
 import Image from 'next/image'
 import { FaShoppingCart, FaUserCircle } from "react-icons/fa";
 import React, { useEffect, useState } from 'react'
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
+import { ChevronDownIcon, CircleIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-
 
 function HeadNav() {
 
@@ -25,8 +26,19 @@ function HeadNav() {
           <div className='company-name'>
             <Link href={'/'} className='flex gap-2'><Image src='/assets/images/logo5.png' alt='LOGO' width={25} height={20} className='object-contain' /><p>Metaphysical Abstract Design</p></Link>
           </div>
-          <div className='text-[#afaeae] space-x-10 pr-5 hidden md:flex mb-2'>
-            <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav' >Firm-Wears</Link>
+          <div className='text-[#afaeae] space-x-10 pr-5 hidden md:flex mb-2'>            
+            <div>
+              <DropdownMenu.Root>
+                <DropdownMenu.Trigger className='trigger flex bg-none right-side-nav'>Firm-Wear<ChevronDownIcon className='ml-1 mt-1' /></DropdownMenu.Trigger>
+                <DropdownMenu.Content loop className='content mt-5 ml-[75px]'>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><CircleIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Vest</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><CircleIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Pants</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><CircleIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Shorts</Link></DropdownMenu.Item>
+                  <hr />
+                  <DropdownMenu.Item className='item flex text-black pt-6 pb-6'><CircleIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Database</Link></DropdownMenu.Item>
+                </DropdownMenu.Content>
+              </DropdownMenu.Root>      
+            </div>
             <Link href='/about' className='hover:text-white transition duration-300 right-side-nav' >About</Link>
             <span className='vertical-divider'>|</span>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
@@ -49,7 +61,7 @@ function HeadNav() {
         
         <br />
       </div>
-      </div>
+      </div>    
     </div>
   )
 }
