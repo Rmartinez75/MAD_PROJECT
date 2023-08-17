@@ -13,7 +13,7 @@ const RootLayout = ({children}) => {
     <html lang='en'>
 
       <Head>
-        <link rel="icon" href='/favicon.png' />
+        <link rel="icon" href='/favicon.ico' />
       </Head>
 
       <body>
