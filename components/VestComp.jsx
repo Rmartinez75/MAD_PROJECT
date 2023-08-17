@@ -8,7 +8,7 @@ function VestComp() {
     <div id='vest-section'>     
       <div className='flex ml-2'>        
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/DSC_0042.jpeg' alt='VEST-1' width={400} height={250} />
+            <Image src='/assets/images/DSC_0062.jpeg' alt='VEST-1' width={400} height={250} />
         </div>
         <div className='p-0.5 rounded-xl'>
             <Image src='/assets/images/DSC_0059.jpeg' alt='VEST-2' width={400} height={250} />

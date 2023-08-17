@@ -11,10 +11,10 @@ export const metadata = {
 const RootLayout = ({children}) => {
   return (
     <html lang='en'>
-      
-      <head>
-        <link rel="icon" href="/favicon.png" sizes='any' />       
-      </head>
+
+      <Head>
+        <link rel="icon" href='/favicon.png' />
+      </Head>
 
       <body>
 
