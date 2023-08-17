@@ -30,7 +30,7 @@ function HeadNav() {
             <div>
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger className='trigger flex bg-none right-side-nav'>Firm-Wear<ChevronDownIcon className='ml-1 mt-1' /></DropdownMenu.Trigger>
-                <DropdownMenu.Content loop className='content mt-5 ml-[75px]'>
+                <DropdownMenu.Content loop className='content text-[13px] mt-5 ml-[75px]'>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Vest</Link></DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Pants</Link></DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Shorts</Link></DropdownMenu.Item>
