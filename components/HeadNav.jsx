@@ -6,9 +6,9 @@ import Image from 'next/image'
 import { FaShoppingCart, FaUserCircle } from "react-icons/fa";
 import React, { useEffect, useState } from 'react'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
-import { ChevronDownIcon, CircleIcon, RadiobuttonIcon} from '@radix-ui/react-icons'
+import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
 
 function HeadNav() {
 
@@ -31,11 +31,11 @@ function HeadNav() {
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger className='trigger flex bg-none right-side-nav'>Firm-Wear<ChevronDownIcon className='ml-1 mt-1' /></DropdownMenu.Trigger>
                 <DropdownMenu.Content loop className='content mt-5 ml-[75px]'>
-                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><RadiobuttonIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Vest</Link></DropdownMenu.Item>
-                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><RadiobuttonIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Pants</Link></DropdownMenu.Item>
-                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><RadiobuttonIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Shorts</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Vest</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Pants</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Shorts</Link></DropdownMenu.Item>
                   <hr />
-                  <DropdownMenu.Item className='item flex text-black pt-6 pb-6'><RadiobuttonIcon className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Database</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black pt-6 pb-6'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Database</Link></DropdownMenu.Item>
                 </DropdownMenu.Content>
               </DropdownMenu.Root>      
             </div>
