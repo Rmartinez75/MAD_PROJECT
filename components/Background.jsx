@@ -50660,7 +50660,7 @@ const Background = (props) => (
           </a>
         </g>
       </svg>
-      <div className='box-content w-[425px] mt-[19.5%]' style={{fontSize: '13px'}}>      
+      <div className='box-content h-auto w-1/4 mt-[19.5%] mr-5' style={{fontSize: '13px'}}>      
         Virtual Reflection (VR) originated as an idea of developing a coherent tool that would bridge the gap between our physical and virtual realities. This tool progressively became a soft and flexible technology through integrating techniques using textiles as its bases. The finish products are a unique and balanced blend of intricate sewing and methodic technology placements, transparency being the key. 
       </div>
     </div>    
