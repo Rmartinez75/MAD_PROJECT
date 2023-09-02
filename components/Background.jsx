@@ -14200,7 +14200,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#999",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -50620,14 +50620,14 @@ const Background = (props) => (
               </tspan>
             </text>
           </a>
-          <a xlinkHref="">
+          <a xlinkHref="#shorts-section">
             <text
               xmlSpace="preserve"
               style={{
                 fontSize: 7.5,
                 fontFamily: "isocteur",
                 InkscapeFontSpecification: "isocteur",
-                fill: "#999",
+                fill: "#000",
                 strokeWidth: 0.75,
               }}
               x={373.967}
