@@ -8,13 +8,13 @@ function VestComp() {
     <div id='vest-section'>     
       <div className='flex w-auto ml-3'> 
       <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_AIR_CANVAS_06.jpeg' alt='VEST-1' width={400} height={250} />
+            <Image src='/assets/images/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' width={400} height={250} />
         </div>       
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' width={400} height={250} />
+            <Image src='/assets/images/VR_AIR_CANVAS_06.jpeg' alt='VEST-1' width={400} height={250} />
         </div>
         <div>
-          <div className='p-0.5 rounded-xl second'>
+          <div className='p-0.5 rounded-xl'>
               <Image src='/assets/images/VR_AIR_CANVAS_08.jpg' alt='VEST-2' width={400} height={250} />
           </div>
         </div>
