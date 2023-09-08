@@ -50596,8 +50596,8 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={159} y={-489.58884} className="vest">
-                {"[VR: CONCEPT: VEST] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={150} y={-489.58884} className="vest">
+                {"[VR VEST: AIR CANVAS] "}
               </tspan>
             </text>
           </a>
@@ -50615,8 +50615,8 @@ const Background = (props) => (
               y={-597.11005}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={405} y={-597.11005} className="pants">
-                {"[VR: PROTOTYPE: TRAIL PANTS] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={480} y={-597.11005} className="pants">
+                {"[VR: THERMAL PANTS] "}
               </tspan>
             </text>
           </a>
@@ -50635,7 +50635,7 @@ const Background = (props) => (
               transform="scale(1 -1)"
             >
               <tspan style={{ strokeWidth: 0.75 }} x={650} y={-505} className="shorts">
-                {"[VR: CONCEPT: NFC SHORTS] "}
+                {"[VR: NFC SHORTS] "}
               </tspan>
             </text>
           </a>

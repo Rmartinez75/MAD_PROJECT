@@ -5,7 +5,7 @@ import Counter from './Counter'
 function ShortsComp() {
   return (
     <div id='shorts-section'>
-      <div className='flex w-auto ml-2'>        
+      <div className='flex w-auto ml-3'>        
         <div className='p-0.5 rounded-xl'>
             <Image src='/assets/images/VR_NFC_SHORTS_02.jpeg' alt='VEST-1' width={400} height={250} />
         </div>

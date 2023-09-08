@@ -6,7 +6,7 @@ import Counter from './Counter'
 function VestComp() {
   return (    
     <div id='vest-section'>     
-      <div className='flex w-auto ml-[3%]'> 
+      <div className='flex w-auto ml-3'> 
       <div className='p-0.5 rounded-xl'>
             <Image src='/assets/images/VR_AIR_CANVAS_06.jpeg' alt='VEST-1' width={400} height={250} />
         </div>       
