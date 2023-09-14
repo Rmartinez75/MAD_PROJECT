@@ -13,7 +13,7 @@ const slides = [
 function VestCarousel() {
   
   return (
-    <div className='box-content h-auto w-[300px]'>
+    <div className='box-content h-auto w-[325px]'>
       <Carousel autoSlide={true}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
