@@ -3,6 +3,7 @@
     font-family: "isocteur";
     background: #28231d;
     padding-top: 5px !important;
+    z-index: 100;
 }
 
 .trigger:focus{

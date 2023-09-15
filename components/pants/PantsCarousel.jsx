@@ -12,7 +12,7 @@ const slides = [
 
 function PantsCarousel() {
   return (
-    <div className='w-[400px]'>
+    <div>
       <Carousel autoSlide={true}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
