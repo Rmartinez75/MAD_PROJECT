@@ -5,9 +5,9 @@ import Carousel from "../Carousel"
 
 
 const slides = [
-    '/assets/images/VR_NFC_SHORTS_02.jpeg',
-    '/assets/images/VR_NFC_SHORTS_01.jpeg',
-    '/assets/images/VR_NFC_SHORTS_02.jpeg',
+    '/assets/images/VR_NFC_SHORTS/slide-show/SQUARE.png',
+    '/assets/images/VR_NFC_SHORTS/slide-show/SQUARE2.png',
+    '/assets/images/VR_NFC_SHORTS/slide-show/SQUARE3.png',
 ]
 
 function ShortsCarousel() {

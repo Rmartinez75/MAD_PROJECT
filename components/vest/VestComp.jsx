@@ -3,6 +3,7 @@ import Image from 'next/image'
 import '@styles/main-page.css'
 import Counter from '../Counter'
 import VestCarousel from './VestCarousel'
+import DownloadLink from '../DownloadLink'
 
 function VestComp() {
   return (    
@@ -27,13 +28,14 @@ function VestComp() {
             </div>          
         </div>
       </div>
-      
-      
-      <div>
-        <div>          
-          <br />
-          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='pl-10' />
+      <br />
+      <div className='flex justify-between'>
+        <div className='ml-10'>         
+          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='' />    
         </div>
+        {/* <div className='mr-10'> 
+          <DownloadLink />  
+        </div>  */}
       </div>
     </div>
   )

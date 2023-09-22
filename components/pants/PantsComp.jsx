@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Counter from '../Counter'
 import PantsCarousel from './PantsCarousel'
+import DownloadLink from '@components/DownloadLink'
 
 function PantsComp() {
   return (
@@ -21,7 +22,10 @@ function PantsComp() {
             The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
           <br />
           <br />
-          <Counter />                     
+          <Counter />
+          <div className='text-center'>
+            {/* <DownloadLink /> */}
+          </div>                     
         </div>            
       </div>
       <div>

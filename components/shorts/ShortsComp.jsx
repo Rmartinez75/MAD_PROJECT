@@ -2,16 +2,17 @@
 import Image from 'next/image'
 import Counter from '../Counter'
 import ShortsCarousel from './ShortsCarousel'
+import DownloadLink from '@components/DownloadLink'
 
 function ShortsComp() {
   return (
     <div id='shorts-section'>
       <div className='flex w-auto ml-3'>        
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_NFC_SHORTS_02.jpeg' alt='VEST-1' width={400} height={250} />
+            <Image src='/assets/images/VR_NFC_SHORTS/VR_NFC_SHORTS_02.jpeg' alt='VEST-1' width={400} height={250} />
         </div>
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_NFC_SHORTS_01.jpeg' alt='VEST-2' width={400} height={250} />
+            <Image src='/assets/images/VR_NFC_SHORTS/VR_NFC_SHORTS_01.jpeg' alt='VEST-2' width={400} height={250} />
         </div>
         <div className='p-0.5 rounded-xl'>
             <ShortsCarousel />
@@ -23,6 +24,9 @@ function ShortsComp() {
           <br />
           <br />
           <Counter />
+          <div className='text-center'>
+            {/* <DownloadLink /> */}
+          </div>
           </div>          
         </div>
       </div>

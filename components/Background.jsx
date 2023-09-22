@@ -34696,7 +34696,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -46484,7 +46484,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -46510,7 +46510,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -50582,6 +50582,44 @@ const Background = (props) => (
               transform="translate(1692.536 1057.055)"
             />
           </g>
+          <a xlinkHref="#vest-leaf-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={141.741}
+              y={-489.589}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={177} y={-623} className="vest">
+                {"[VR VEST: GOLDEN LEAF] "}
+              </tspan>
+            </text>
+          </a>
+          <a xlinkHref="#vest-terrain-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={141.741}
+              y={-489.589}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={145} y={-567} className="vest">
+                {"[VR VEST: URBAN TERRAIN] "}
+              </tspan>
+            </text>
+          </a>
           <a xlinkHref="#vest-section">
             <text
               xmlSpace="preserve"
@@ -50636,6 +50674,25 @@ const Background = (props) => (
             >
               <tspan style={{ strokeWidth: 0.75 }} x={650} y={-505} className="shorts">
                 {"[VR: NFC SHORTS] "}
+              </tspan>
+            </text>
+          </a>
+          <a xlinkHref="#hand-warmer-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={373.967}
+              y={-185.52}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={745} y={-440} className="shorts">
+                {"[VR: HAND WARMER] "}
               </tspan>
             </text>
           </a>
