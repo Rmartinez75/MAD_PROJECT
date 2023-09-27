@@ -2,8 +2,8 @@
 import '@styles/background.css'
 
 const Background = (props) => (
-  <div className="background both-rows">
-    <div className="column left-side flex">
+  <div>
+    <div className="hidden lg:flex">
       <br/>      
       <svg  
         className='mt-6 w-3/4'    

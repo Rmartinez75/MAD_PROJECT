@@ -4,11 +4,12 @@ import '@styles/main-page.css'
 import Counter from '../Counter'
 import VestCarousel from './VestCarousel'
 import DownloadLink from '../DownloadLink'
+import VestMobileCarousel from './VestMobileCarousel'
 
 function VestComp() {
   return (    
     <div id='vest-section'>     
-      <div className='flex ml-3'> 
+      <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
           </div>       
@@ -16,7 +17,8 @@ function VestComp() {
             <img src='/assets/images/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
           <div className='p-0.5'>
-            <VestCarousel />                
+            <VestCarousel />
+                            
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
@@ -29,14 +31,15 @@ function VestComp() {
         </div>
       </div>
       <br />
-      <div className='flex justify-between'>
+      <div className='hidden lg:flex justify-between'>
         <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='' />    
+          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} />    
         </div>
         {/* <div className='mr-10'> 
           <DownloadLink />  
         </div>  */}
       </div>
+      <VestMobileCarousel />
     </div>
   )
 }

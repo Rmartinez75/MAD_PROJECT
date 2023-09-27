@@ -13,7 +13,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       screens: {
-        'sm': '640px',
+        'sm': '468px',
         // => @media (min-width: 640px) { ... }
   
         'md': '768px',
@@ -27,7 +27,7 @@ module.exports = {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-      }
+      },
     },
   },
   plugins: [],

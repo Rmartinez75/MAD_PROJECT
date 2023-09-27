@@ -13,7 +13,7 @@ const slides = [
 function VestCarousel() {
   
   return (
-    <div>
+    <div className="hidden lg:flex">
       <Carousel autoSlide={true}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
