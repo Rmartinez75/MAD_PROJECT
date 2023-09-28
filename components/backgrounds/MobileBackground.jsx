@@ -4,6 +4,7 @@ import '@styles/background.css'
 
 const MobileBackground = (props) => (
   <div className="block lg:hidden">
+    <br />
   <svg    
     viewBox="0 0 2191.7277 3020.9506"
     xmlnsXlink="http://www.w3.org/1999/xlink"
