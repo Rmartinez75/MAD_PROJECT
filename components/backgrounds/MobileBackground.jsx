@@ -45565,6 +45565,56 @@ const MobileBackground = (props) => (
           transform="translate(-658.061 4060.492)"
         />
       </g>
+      <a xlinkHref="#vest-leaf-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={550}
+            y={-2135}
+          >
+            {"[VR VEST: GOLDEN LEAF] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="#vest-terrain-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={450}
+            y={-1948}
+          >
+            {"[VR VEST: URBAN TERRAIN] "}
+          </tspan>
+        </text>
+      </a>
       <a xlinkHref="#vest-section">
         <text
           xmlSpace="preserve"
@@ -45581,23 +45631,23 @@ const MobileBackground = (props) => (
           transform="scale(1 -1)"
         >
           <tspan
-            className="vest"
+            className=""
             style={{ strokeWidth: 0.75 }}
-            x={441}
-            y={-1440}
+            x={468}
+            y={-1620}
           >
-            {"[VR: CONCEPT: VEST] "}
+            {"[VR VEST: AIR CANVAS] "}
           </tspan>
         </text>
       </a>
-      <a xlinkHref="">
+      <a xlinkHref="#pants-section">
         <text
           xmlSpace="preserve"
           style={{
             fontSize: 30,
             fontFamily: "isocteur",
             InkscapeFontSpecification: "isocteur",
-            fill: "#999",
+            fill: "#000",
             strokeWidth: 0.75,
           }}
           x={380.727}
@@ -45605,23 +45655,23 @@ const MobileBackground = (props) => (
           transform="scale(1 -1)"
         >
           <tspan
-            className="pants"
+            className=""
             style={{ strokeWidth: 0.75 }}
             x={1129}
             y={-1981}
           >
-            {"[VR: PROTOTYPE: TRAIL PANTS] "}
+            {"[VR: THERMAL PANTS] "}
           </tspan>
         </text>
       </a>
-      <a xlinkHref="">
+      <a xlinkHref="#shorts-section">
         <text
           xmlSpace="preserve"
           style={{
             fontSize: 30,
             fontFamily: "isocteur",
             InkscapeFontSpecification: "isocteur",
-            fill: "#999",
+            fill: "#000",
             strokeWidth: 0.75,
           }}
           x={373.967}
@@ -45629,12 +45679,36 @@ const MobileBackground = (props) => (
           transform="scale(1 -1)"
         >
           <tspan
-            className="shorts"
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={1110}
+            y={-1625}
+          >
+            {"[VR: NFC SHORTS] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="#hand-warmer-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+          x={373.967}
+          y={-185.52}
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
             style={{ strokeWidth: 0.75 }}
             x={1360}
             y={-1203}
           >
-            {"[VR: CONCEPT: SHORTS] "}
+            {"[VR: HAND WARMER] "}
           </tspan>
         </text>
       </a>

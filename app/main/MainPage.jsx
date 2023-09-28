@@ -1,14 +1,14 @@
 
 import Background from "@components/backgrounds/Background"
 import SectionDivider from "@components/SectionDivider"
-import VestComp from "@components/vest/VestComp"
+import VestComp from "@components/vest/air-canvas/VestComp"
 import PantsComp from "@components/pants/PantsComp"
 import ShortsComp from "@components/shorts/ShortsComp"
 import ScrollToTopButton from "@components/ScrollToTopButton"
 import '@styles/main-page.css'
-import GoldenLeafComp from "@components/vest/GoldenLeafComp"
+import GoldenLeafComp from "@components/vest/golden-leaf/GoldenLeafComp"
 import HandWarmerComp from "@components/hand-warmer/HandWarmerComp"
-import TerrainComp from "@components/vest/TerrainComp"
+import TerrainComp from "@components/vest/urban-terrain/TerrainComp"
 import MobileBackground from "@components/backgrounds/MobileBackground"
 
 

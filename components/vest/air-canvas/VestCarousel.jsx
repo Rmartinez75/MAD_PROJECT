@@ -1,7 +1,7 @@
 
 'use client'
 
-import Carousel from "../Carousel"
+import Carousel from "../../Carousel"
 
 
 const slides = [

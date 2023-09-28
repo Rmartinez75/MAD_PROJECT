@@ -29,7 +29,7 @@ function HeadNav() {
       <div className='px-8 mx-auto'>
         <div className="flex lg:justify-between lg:items-center py-2">
          {/* LOGO */}
-          <div className='company-name'>
+          <div className='company-name text-center'>
             <Link href={'/'} className='flex gap-2'><Image src='/assets/images/logo5.png' alt='LOGO' width={25} height={20} className='object-contain' /><p>Metaphysical Abstract Design</p></Link>
           </div>
           <div className='text-[#afaeae] space-x-10 pr-5 hidden md:flex mb-2'>            
@@ -63,7 +63,7 @@ function HeadNav() {
         <div>
           <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300' onClick={showDropDown}>Firm-Wear</Link>
           <div className={ openDropDown ? '' : 'hidden'}>
-            <div className='bg-gray-300'>
+            <div className='bg-[#d3cccc]'>
               <div className='hover:bg-gray-600'>
               <Link href={'/'}>Vest</Link>
               </div>

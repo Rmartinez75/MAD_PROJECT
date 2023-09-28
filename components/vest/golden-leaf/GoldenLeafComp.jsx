@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import Counter from '../Counter'
+import Counter from '@components/Counter'
 import GoldenLeafCarousel from './GoldenLeafCarousel'
 import DownloadLink from '@components/DownloadLink'
 
