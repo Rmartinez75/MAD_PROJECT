@@ -7,15 +7,15 @@ import Image from "next/image"
 
 
 const slides = [
-  '/assets/images/VR_AIR_CANVAS_07.jpeg',  
-  '/assets/images/VR_AIR_CANVAS_06.jpeg',
-  '/assets/images/VR_AIR_CANVAS_07.jpeg',
-  '/assets/images/VR_AIR_CANVAS_06.jpeg',
-  '/assets/images/VR_AIR_CANVAS_08.jpg',
+    '/assets/images/VR_THERMAL_PANTS_01.jpeg',
+    '/assets/images/VR_THERMAL_PANTS_02.jpeg',
+    '/assets/images/VR_THERMAL_PANTS_01.jpeg',
+    '/assets/images/VR_THERMAL_PANTS_02.jpeg',
+    '/assets/images/VR_THERMAL_PANTS_03.jpeg',
 ]
 
-function VestMobileCarousel() {
-  
+
+function PantsMobileCarousel() {
   return (
     <div className="block lg:hidden m-4">
       <Carousel autoSlide={true}>
@@ -25,7 +25,7 @@ function VestMobileCarousel() {
       </Carousel>
       <br />
       <div style={{fontSize: '12px'}}>
-        <p className='font-bold'>VR: AIR CANVAS</p> 
+        <p className='font-bold'>VR: THERMAL PANTS</p> 
         <br />
         <p>       
         The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
@@ -37,10 +37,10 @@ function VestMobileCarousel() {
         <br />
         <br />
         <div>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
+            <Image src='/assets/images/pants-schema.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
        </div>
     </div>
   )
 }
 
-export default VestMobileCarousel
+export default PantsMobileCarousel

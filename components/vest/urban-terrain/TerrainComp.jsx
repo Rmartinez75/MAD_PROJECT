@@ -4,11 +4,12 @@ import '@styles/main-page.css'
 import Counter from '@components/Counter'
 import TerrainCarousel from '@components/vest/urban-terrain/TerrainCarousel'
 import DownloadLink from '@components/DownloadLink'
+import TerrainMobileCarousel from './TerrainMobileCarousel'
 
 function TerrainComp() {
   return (
     <div id='vest-terrain-section'>     
-      <div className='flex ml-3'> 
+      <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
             <img src='/assets/images/VR_URBAN_TERRAIN 1_01.jpeg' alt='VEST-1' className='w-[400px]' />
           </div>       
@@ -31,12 +32,16 @@ function TerrainComp() {
             </div>          
         </div>
       </div>  
-      <div>
-        <div>          
-          <br />
-          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='pl-10' />
+      <br />
+      <div className='hidden lg:flex justify-between'>
+        <div className='ml-10'>         
+          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
+        {/* <div className='mr-10'> 
+          <DownloadLink />  
+        </div>  */}
       </div>
+      <TerrainMobileCarousel />
     </div>
   )
 }

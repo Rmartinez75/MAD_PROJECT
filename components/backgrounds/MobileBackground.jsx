@@ -5784,7 +5784,7 @@ const MobileBackground = (props) => (
         d="M0 0v0"
         style={{
           fill: "none",
-          stroke: "#999",
+          stroke: "red",
           strokeWidth: 12,
           strokeLinecap: "round",
           strokeLinejoin: "round",
@@ -40760,6 +40760,32 @@ const MobileBackground = (props) => (
         }}
         transform="translate(914.548 1128.13)"
       />
+      <g clipPath="url(#zw)">
+        <path
+          d="M0 0Z"
+          style={{
+            fill: "#000",
+            fillOpacity: 1,
+            fillRule: "nonzero",
+            stroke: "none",
+          }}
+          transform="translate(914.548 1128.13)"
+        />
+      </g>
+      <path
+        d="M0 0v0"
+        style={{
+          fill: "none",
+          stroke: "#666",
+          strokeWidth: 12,
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeMiterlimit: 10,
+          strokeDasharray: "none",
+          strokeOpacity: 1,
+        }}
+        transform="translate(914.548 1128.13)"
+      />
       <g clipPath="url(#zx)">
         <path
           d="M0 0Z"
@@ -41218,7 +41244,7 @@ const MobileBackground = (props) => (
         d="M0 0v0"
         style={{
           fill: "none",
-          stroke: "#999",
+          stroke: "red",
           strokeWidth: 12,
           strokeLinecap: "round",
           strokeLinejoin: "round",
@@ -45587,7 +45613,32 @@ const MobileBackground = (props) => (
             x={550}
             y={-2135}
           >
-            {"[VR VEST: GOLDEN LEAF] "}
+            {"[VR VEST: GOLDEN LEAF] " }
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 115,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "red",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={980}
+            y={-2139}
+          >
+            {"." }
           </tspan>
         </text>
       </a>
@@ -45616,6 +45667,31 @@ const MobileBackground = (props) => (
           </tspan>
         </text>
       </a>
+      <a xlinkHref="">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 115,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "red",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={922}
+            y={-1950}
+          >
+            {"."}
+          </tspan>
+        </text>
+      </a>
       <a xlinkHref="#vest-section">
         <text
           xmlSpace="preserve"
@@ -45638,6 +45714,31 @@ const MobileBackground = (props) => (
             y={-1620}
           >
             {"[VR VEST: AIR CANVAS] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 115,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "red",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={876}
+            y={-1622}
+          >
+            {"."}
           </tspan>
         </text>
       </a>
@@ -45686,6 +45787,30 @@ const MobileBackground = (props) => (
             y={-1625}
           >
             {"[VR: NFC SHORTS] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 115,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "red",
+            strokeWidth: 0.75,
+          }}
+          x={373.967}
+          y={-185.52}
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={1071}
+            y={-1629}
+          >
+            {"."}
           </tspan>
         </text>
       </a>

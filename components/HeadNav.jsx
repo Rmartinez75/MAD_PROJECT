@@ -59,23 +59,29 @@ function HeadNav() {
       </div>
       {/* MOBILE MENU */}
       <div className={ open ? '' : 'hidden'}>
-      <div className='text-center text-[#afaeae] mobile-menu md:hidden'>
+      <div className='block text-center text-[#afaeae] mobile-menu md:hidden'>
         <div>
           <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300' onClick={showDropDown}>Firm-Wear</Link>
           <div className={ openDropDown ? '' : 'hidden'}>
-            <div className='bg-[#d3cccc]'>
-              <div className='hover:bg-gray-600'>
-              <Link href={'/'}>Vest</Link>
+            <div className='bg-[#FFF3F3] text-black'>
+              <br />
+              <div className='flex justify-center mb-2'>
+                <AiTwotoneUpCircle className='text-red-500  text-[10px] mr-2 mt-2' />
+                <Link href={'/'}>Vest</Link>
               </div>
-              <div className='hover:bg-gray-600'>
-              <Link href={'/'}>Pants</Link>
+              <div className='flex justify-center mb-2'>
+                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+                <Link href={'/'}>Pants</Link>
               </div>
-              <div className='hover:bg-gray-600'>
-              <Link href={'/'}>Shorts</Link>
+              <div className='flex justify-center mb-2'>
+                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+                <Link href={'/'}>Shorts</Link>
               </div>
-              <div className='hover:bg-gray-600'>
-              <Link href={'/'}>Hand Warmer</Link>
+              <div className='flex justify-center'>
+                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+                <Link href={'/'}>Hand Warmer</Link>
               </div>
+              <br />
             </div>
           </div>
         </div>

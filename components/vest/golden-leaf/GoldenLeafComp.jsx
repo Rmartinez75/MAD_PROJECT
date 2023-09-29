@@ -3,12 +3,13 @@ import Image from 'next/image'
 import Counter from '@components/Counter'
 import GoldenLeafCarousel from './GoldenLeafCarousel'
 import DownloadLink from '@components/DownloadLink'
+import GoldenLeadMobileCarousel from './GoldenLeadMobileCarousel'
 
 
 function GoldenLeafComp() {
   return (
     <div id='vest-leaf-section'>     
-      <div className='flex ml-3'> 
+      <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
             <img src='/assets/images/VR_GOLDEN_LEAF/VR_GOLDEN_LEAF_05.jpeg' alt='VEST-1' className='w-[400px]' />
           </div>       
@@ -31,12 +32,16 @@ function GoldenLeafComp() {
             </div>          
         </div>
       </div>    
-      <div>
-        <div>          
-          <br />
-          <Image src='/assets/images/vest-schema.svg' alt='PANTS SCHEMATICS' width={800} height={500} className='pl-10' />
+      <br />
+      <div className='hidden lg:flex justify-between'>
+        <div className='ml-10'>         
+          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
+        {/* <div className='mr-10'> 
+          <DownloadLink />  
+        </div>  */}
       </div>
+      <GoldenLeadMobileCarousel />
     </div>
   )
 }
