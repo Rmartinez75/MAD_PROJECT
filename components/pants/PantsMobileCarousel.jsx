@@ -37,7 +37,7 @@ function PantsMobileCarousel() {
         <br />
         <br />
         <div>         
-            <Image src='/assets/images/pants-schema.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
+            <Image src='/assets/images/schematicsMobile.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
        </div>
     </div>
   )
