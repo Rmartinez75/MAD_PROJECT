@@ -61,29 +61,30 @@ function HeadNav() {
       <div className={ open ? '' : 'hidden'}>
       <div className='block text-center text-[#afaeae] mobile-menu md:hidden'>
         <div>
-          <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300' onClick={showDropDown}>Firm-Wear</Link>
+          <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300' onClick={showDropDown}><p>Firm-Wear<ChevronDownIcon className='arrow-down' /></p></Link>
           <div className={ openDropDown ? '' : 'hidden'}>
             <div className='bg-[#FFF3F3] text-black'>
               <br />
-              <div className='flex justify-center mb-2'>
-                <AiTwotoneUpCircle className='text-red-500  text-[10px] mr-2 mt-2' />
+              <div className=''>                
                 <Link href={'/'}>Vest</Link>
+                <AiTwotoneUpCircle className='red-dot text-red-500  text-[10px] mr-2 mt-2 mb-2' />
               </div>
-              <div className='flex justify-center mb-2'>
-                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+              <div className=''>
                 <Link href={'/'}>Pants</Link>
+                <AiTwotoneUpCircle className='red-dot text-red-500 text-[10px] mr-2 mt-2 mb-2' />
               </div>
-              <div className='flex justify-center mb-2'>
-                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+              <div className=''>
                 <Link href={'/'}>Shorts</Link>
+                <AiTwotoneUpCircle className='red-dot text-red-500 text-[10px] mr-2 mt-2 mb-2' />
               </div>
-              <div className='flex justify-center'>
-                <AiTwotoneUpCircle className='text-red-500 text-[10px] mr-2 mt-2' />
+              <div className=''>
                 <Link href={'/'}>Hand Warmer</Link>
+                <AiTwotoneUpCircle className='red-dot text-red-500 text-[10px] mr-2 mt-2' />
               </div>
               <br />
             </div>
           </div>
+          {/* <hr className='horizantal-divider'></hr> */}
         </div>
         <Link href={'/about'} className='block py-4 text-sm hover:text-white transition duration-300'>About</Link>
         <hr className='horizantal-divider'></hr>

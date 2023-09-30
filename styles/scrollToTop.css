@@ -2,7 +2,7 @@
 .button-div{
     position: fixed;
     bottom: 20px;
-    right: 65px;
+    right: 15px;
     display: grid;
     cursor: pointer;
 }

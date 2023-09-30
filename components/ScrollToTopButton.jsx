@@ -22,8 +22,7 @@ function ScrollToTopButton() {
 
   return (
     <div className='button-div'>
-      {scrollToTopButton && (<Link href='/' style={{textDecoration: 'none'}}><span className='button'><FaRegArrowAltCircleUp /></span></Link>)}
-            
+      {scrollToTopButton && (<Link href='/' style={{textDecoration: 'none'}}><span className='button'><FaRegArrowAltCircleUp /></span></Link>)}            
     </div>
   )
 }
