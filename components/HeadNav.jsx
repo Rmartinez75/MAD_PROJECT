@@ -10,6 +10,7 @@ import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
 
+
 function HeadNav() {
 
   const [open, setOpen] = useState(false)
@@ -61,7 +62,7 @@ function HeadNav() {
       <div className={ open ? '' : 'hidden'}>
       <div className='block text-center text-[#afaeae] mobile-menu md:hidden'>
         <div>
-          <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300' onClick={showDropDown}><p>Firm-Wear<ChevronDownIcon className='arrow-down' /></p></Link>
+          <Link href={'#'} className='block py-4 text-sm transition duration-300' onClick={showDropDown}><p>Firm-Wear<ChevronDownIcon className='arrow-down' /></p></Link>
           <div className={ openDropDown ? '' : 'hidden'}>
             <div className='bg-[#FFF3F3] text-black'>
               <br />

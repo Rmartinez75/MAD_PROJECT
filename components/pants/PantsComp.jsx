@@ -10,10 +10,10 @@ function PantsComp() {
     <div id='pants-section'>
       <div className='hidden lg:flex ml-3'>               
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_THERMAL_PANTS_01.jpeg' alt='PANTS-1' width={400} height={250} />
+            <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_01.jpeg' alt='PANTS-1' width={400} height={250} />
         </div>
         <div className='p-0.5 rounded-xl'>
-            <Image src='/assets/images/VR_THERMAL_PANTS_02.jpeg' alt='PANTS-2' width={400} height={250} />
+            <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_02_NEW.jpeg' alt='PANTS-2' width={400} height={250} />
         </div>
         <div className='p-0.5 rounded-xl'>
             <PantsCarousel />

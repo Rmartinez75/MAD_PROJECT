@@ -5,9 +5,11 @@ import Carousel from "../Carousel"
 
 
 const slides = [
-    '/assets/images/VR_THERMAL_PANTS_01.jpeg',
-    '/assets/images/VR_THERMAL_PANTS_02.jpeg',
-    '/assets/images/VR_THERMAL_PANTS_03.jpeg',
+    '/assets/images/VR_THERMAL_PANTS/slide-show/VR_THERMAL_PANTS_04.jpeg',
+    '/assets/images/VR_THERMAL_PANTS/slide-show/VR_THERMAL_PANTS_03.jpeg',
+    '/assets/images/VR_THERMAL_PANTS/slide-show/VR_THERMAL_PANTS_05.jpeg',
+    '/assets/images/VR_THERMAL_PANTS/slide-show/VR_THERMAL_PANTS_06.jpeg',
+    '/assets/images/VR_THERMAL_PANTS/slide-show/VR_THERMAL_PANTS_07.jpeg',
 ]
 
 function PantsCarousel() {
