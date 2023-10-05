@@ -26,7 +26,7 @@ function HeadNav() {
       }
   
   return (
-    <div className='head-nav sticky top-0'>
+    <div className='head-nav lg:sticky top-0'>
       <div className='px-8 mx-auto'>
         <div className="flex lg:justify-between lg:items-center py-2">
          {/* LOGO */}

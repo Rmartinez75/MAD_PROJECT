@@ -7,11 +7,11 @@ import Image from "next/image"
 
 
 const slides = [
-  '/assets/images/VR_AIR_CANVAS_07.jpeg',  
-  '/assets/images/VR_AIR_CANVAS_06.jpeg',
-  '/assets/images/VR_AIR_CANVAS_07.jpeg',
-  '/assets/images/VR_AIR_CANVAS_06.jpeg',
-  '/assets/images/VR_AIR_CANVAS_08.jpg',
+  '/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.jpeg',
+  '/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg',
+  '/assets/images/VR_AIR_CANVAS/slide-show/VR_AIR_CANVAS_08z.jpeg',
+  '/assets/images/VR_AIR_CANVAS/slide-show/VR_AIR_CANVAS_09z.jpeg',
+  '/assets/images/VR_AIR_CANVAS/slide-show/VR_AIR_CANVAS_010z.jpeg',
 ]
 
 function VestMobileCarousel() {

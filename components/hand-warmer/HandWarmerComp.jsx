@@ -11,10 +11,10 @@ function HandWarmerComp() {
     <div id='hand-warmer-section'>     
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
-            <img src='/assets/images/VR_HAND_WARMERS_04.jpeg' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_HAND_WARMERS/square1.png' alt='VEST-1' className='w-[400px]' />
           </div>       
           <div className='p-0.5'>
-            <img src='/assets/images/VR_HAND_WARMERS_01.jpeg' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_HAND_WARMERS/square4.png' alt='VEST-2' className='w-[400px]' />
           </div>
           <div className='p-0.5'>
             <HandWarmerCarousel />                

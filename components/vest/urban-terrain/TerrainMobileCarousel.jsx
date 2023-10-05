@@ -7,11 +7,15 @@ import Image from "next/image"
 
 
 const slides = [
-    '/assets/images/VR_URBAN_TERRAIN 1_01.jpeg',
-    '/assets/images/VR_URBAN_TERRAIN 1_02.jpeg',
-    '/assets/images/VR_URBAN_TERRAIN 1_07.jpeg',
-    '/assets/images/VR_URBAN_TERRAIN 1_02.jpeg',
-    '/assets/images/VR_URBAN_TERRAIN 1_01.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/VR_URBAN_TERRAIN_1_01.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/VR_URBAN_TERRAIN_1_02.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/square1.png',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/square2.png',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/square3.png',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/square4.png',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/VR_URBAN_TERRAIN_1_06.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/VR_URBAN_TERRAIN_1_07.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/slide-show/VR_URBAN_TERRAIN_1_05.jpeg',
   ]
 
 

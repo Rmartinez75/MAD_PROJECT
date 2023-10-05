@@ -11,10 +11,10 @@ function VestComp() {
     <div id='vest-section'>     
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
-            <img src='/assets/images/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
           </div>       
           <div className='p-0.5'>
-            <img src='/assets/images/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
           <div className='p-0.5'>
             <VestCarousel />

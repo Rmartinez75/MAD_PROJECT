@@ -11,10 +11,10 @@ function TerrainComp() {
     <div id='vest-terrain-section'>     
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
-            <img src='/assets/images/VR_URBAN_TERRAIN 1_01.jpeg' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_URBAN_TERRAIN/VR_URBAN_TERRAIN_1_01.jpeg' alt='VEST-1' className='w-[400px]' />
           </div>       
           <div className='p-0.5'>
-            <img src='/assets/images/VR_URBAN_TERRAIN 1_02.jpeg' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_URBAN_TERRAIN/VR_URBAN_TERRAIN_1_02.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
           <div className='p-0.5'>
             <TerrainCarousel />                
