@@ -46406,7 +46406,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -46432,7 +46432,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -50636,6 +50636,44 @@ const Background = (props) => (
             >
               <tspan style={{ strokeWidth: 0.75 }} x={150} y={-489.58884} className="vest">
                 {"[VR VEST: AIR CANVAS] "}
+              </tspan>
+            </text>
+          </a>
+          <a xlinkHref="#vest-bubbleblack-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={141.741}
+              y={-489.589}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={90} y={-401} className="vest">
+                {"[VR VEST: AIR BUBBLE BLACK] "}
+              </tspan>
+            </text>
+          </a>
+          <a xlinkHref="#vest-aircarbon-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={141.741}
+              y={-489.589}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={140} y={-297} className="vest">
+                {"[VR VEST: AIR CARBON] "}
               </tspan>
             </text>
           </a>

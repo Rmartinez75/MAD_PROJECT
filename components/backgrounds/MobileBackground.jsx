@@ -45671,7 +45671,7 @@ const MobileBackground = (props) => (
         <text
           xmlSpace="preserve"
           style={{
-            fontSize: 115,
+            fontSize: 125,
             fontFamily: "isocteur",
             InkscapeFontSpecification: "isocteur",
             fill: "red",
@@ -45710,10 +45710,35 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={468}
-            y={-1620}
+            x={500}
+            y={-1800}
           >
             {"[VR VEST: AIR CANVAS] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="#vest-bubbleblack-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={430}
+            y={-1610}
+          >
+            {"[VR VEST: AIR BUBBLE BLACK] "}
           </tspan>
         </text>
       </a>
@@ -45721,7 +45746,7 @@ const MobileBackground = (props) => (
         <text
           xmlSpace="preserve"
           style={{
-            fontSize: 115,
+            fontSize: 125,
             fontFamily: "isocteur",
             InkscapeFontSpecification: "isocteur",
             fill: "red",
@@ -45735,8 +45760,58 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={876}
-            y={-1622}
+            x={963}
+            y={-1613}
+          >
+            {"."}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="#vest-carbon-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={438}
+            y={-1438}
+          >
+            {"[VR VEST: AIR CARBON] "}
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 125,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "red",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={908}
+            y={-1805}
           >
             {"."}
           </tspan>

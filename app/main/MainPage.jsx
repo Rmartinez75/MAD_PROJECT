@@ -10,6 +10,8 @@ import GoldenLeafComp from "@components/vest/golden-leaf/GoldenLeafComp"
 import HandWarmerComp from "@components/hand-warmer/HandWarmerComp"
 import TerrainComp from "@components/vest/urban-terrain/TerrainComp"
 import MobileBackground from "@components/backgrounds/MobileBackground"
+import BubbleBlackComp from "@components/vest/bubble-black/BubbleBlackComp"
+import CarbonComp from "@components/vest/air-carbon/CarbonComp"
 
 
 const MainPage = () => {
@@ -23,6 +25,10 @@ const MainPage = () => {
       <TerrainComp />
       <SectionDivider />
       <VestComp />
+      <SectionDivider />
+      <BubbleBlackComp />
+      <SectionDivider />
+      <CarbonComp />
       <SectionDivider />
       <PantsComp />
       <SectionDivider />
