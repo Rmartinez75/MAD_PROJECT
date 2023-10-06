@@ -18,8 +18,8 @@ function DownloadLink() {
   }
 
   return (
-    <div className='flex mr-[250px]'>
-      <button onClick={()=>{downloadFile(PDF_FILE)}}><p className="hidden lg:flex tracking-[.50em] text-[13px] hover:text-[16px] text-red-700 text-bold">Download Schematics</p></button> 
+    <div className='flex'>
+      <button onClick={()=>{downloadFile(PDF_FILE)}}><p className="lg:flex tracking-[.50em] text-[13px] lg:hover:text-[16px] text-red-700 text-bold">Download Schematics</p></button> 
       {/* <br />
       <br />
       <img src="/assets/images/path1.png" alt="" className="w-[800px]"/> */}

@@ -3,6 +3,7 @@
 
 import Carousel from "@components/Carousel"
 import Counter from "@components/Counter"
+import DownloadLink from "@components/DownloadLink"
 import Image from "next/image"
 
 
@@ -31,6 +32,9 @@ function BubbleBlackMobileCarousel() {
         <br />
         <br />
         <Counter />
+        <br />
+        <br />
+        <DownloadLink />
         </div>
         <br />
         <br />
