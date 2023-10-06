@@ -18,11 +18,11 @@ function DownloadLink() {
   }
 
   return (
-    <div className="block text-center">
-      <button onClick={()=>{downloadFile(PDF_FILE)}}><p className="tracking-[.25em] text-[13px] hover:text-[14px]">Download Schematics</p></button> 
+    <div className='flex mr-[250px]'>
+      <button onClick={()=>{downloadFile(PDF_FILE)}}><p className="hidden lg:flex tracking-[.50em] text-[13px] hover:text-[16px] text-red-700 text-bold">Download Schematics</p></button> 
+      {/* <br />
       <br />
-      <br />
-      <img src="/assets/images/path1.png" alt="" className="w-[800px]"/>
+      <img src="/assets/images/path1.png" alt="" className="w-[800px]"/> */}
     </div>
   )
 }

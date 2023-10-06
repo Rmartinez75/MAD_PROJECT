@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Counter from '@components/Counter'
 import GoldenLeafCarousel from './GoldenLeafCarousel'
 import DownloadLink from '@components/DownloadLink'
-import GoldenLeadMobileCarousel from './GoldenLeadMobileCarousel'
+import GoldenLeafMobileCarousel from './GoldenLeafMobileCarousel'
 
 
 function GoldenLeafComp() {
@@ -26,9 +26,6 @@ function GoldenLeafComp() {
             <br />
             <br />
             <Counter />            
-            <div className='text-center'>
-              {/* <DownloadLink /> */}
-            </div>
             </div>          
         </div>
       </div>    
@@ -37,11 +34,11 @@ function GoldenLeafComp() {
         <div className='ml-10'>         
           <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
-        {/* <div className='mr-10'> 
+        <div className='flex items-center'> 
           <DownloadLink />  
-        </div>  */}
+        </div>
       </div>
-      <GoldenLeadMobileCarousel />
+      <GoldenLeafMobileCarousel />
     </div>
   )
 }

@@ -25,9 +25,6 @@ function ShortsComp() {
           <br />
           <br />
           <Counter />
-          <div className='text-center'>
-            {/* <DownloadLink /> */}
-          </div>
           </div>          
         </div>
       </div>
@@ -36,9 +33,9 @@ function ShortsComp() {
         <div className='ml-10'>         
           <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
-        {/* <div className='mr-10'> 
+        <div className='flex items-center'> 
           <DownloadLink />  
-        </div>  */}
+        </div>
       </div>
       <ShortsMobileCarousel />
     </div>
