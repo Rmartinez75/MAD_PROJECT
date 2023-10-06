@@ -9,7 +9,7 @@ import CarbonMobileCarousel from './CarbonMobileCarousel'
 
 function CarbonComp() {
   return (
-    <div id='vest-carbon-section'>     
+    <div id='vest-aircarbon-section'>     
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_CARBON/DSC_0923_5.jpeg' alt='VEST-1' className='w-[400px]' />

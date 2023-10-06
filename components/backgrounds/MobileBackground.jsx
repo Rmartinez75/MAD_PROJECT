@@ -45767,7 +45767,7 @@ const MobileBackground = (props) => (
           </tspan>
         </text>
       </a>
-      <a xlinkHref="#vest-carbon-section">
+      <a xlinkHref="#vest-aircarbon-section">
         <text
           xmlSpace="preserve"
           style={{
