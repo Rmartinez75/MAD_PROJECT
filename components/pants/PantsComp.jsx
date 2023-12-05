@@ -31,9 +31,9 @@ function PantsComp() {
         <div>         
           <Image src='/assets/images/pants-schema.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
         </div>
-        <div className='flex items-center mr-[250px]'> 
+        {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  
-        </div>
+        </div> */}
       </div>
       <PantsMobileCarousel />
     </div>

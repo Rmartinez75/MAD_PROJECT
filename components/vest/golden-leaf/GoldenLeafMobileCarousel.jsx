@@ -36,7 +36,7 @@ function GoldenLeadMobileCarousel() {
         <Counter />
         <br />
         <br />
-        <DownloadLink />
+        {/* <DownloadLink /> */}
         </div>
         <br />
         <br />

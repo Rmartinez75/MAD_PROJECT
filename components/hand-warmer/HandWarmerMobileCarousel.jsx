@@ -37,13 +37,13 @@ function HandWarmerMobileCarousel() {
         <Counter />
         <br />
         <br />
-        <DownloadLink />
+        {/* <DownloadLink /> */}
         </div>
         <br />
         <br />
         <div>         
           <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
-       </div>
+      </div>
     </div>
   )
 }

@@ -37,7 +37,7 @@ function VestMobileCarousel() {
         <Counter />
         <br />
         <br />
-        <DownloadLink />
+        {/* <DownloadLink /> */}
         </div>
         <br />
         <br />

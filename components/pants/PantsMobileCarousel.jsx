@@ -36,7 +36,7 @@ function PantsMobileCarousel() {
         <Counter />
         <br />
         <br />
-        <DownloadLink />
+        {/* <DownloadLink /> */}
         </div>
         <br />
         <br />

@@ -36,7 +36,7 @@ function ShortsMobileCarousel() {
         <Counter />
         <br />
         <br />
-        <DownloadLink />
+        {/* <DownloadLink /> */}
         </div>
         <br />
         <br />

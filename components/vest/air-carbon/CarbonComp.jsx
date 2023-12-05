@@ -36,9 +36,9 @@ function CarbonComp() {
         <div className='ml-10'>         
           <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
-        <div className='flex items-center mr-[250px]'> 
+        {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  
-        </div>
+        </div> */}
       </div>
       <CarbonMobileCarousel />
     </div>
