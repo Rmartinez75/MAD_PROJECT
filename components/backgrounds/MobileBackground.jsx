@@ -45610,10 +45610,35 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={550}
+            x={620}
             y={-2135}
           >
-            {"[VR VEST: GOLDEN LEAF] " }
+            {"[VR: GOLDEN LEAF]" }
+          </tspan>
+        </text>
+      </a>
+      <a xlinkHref="#vest-bubblebrown-section">
+        <text
+          xmlSpace="preserve"
+          style={{
+            fontSize: 30,
+            fontFamily: "isocteur",
+            InkscapeFontSpecification: "isocteur",
+            fill: "#000",
+            strokeWidth: 0.75,
+          }}
+            x={373.967}
+            y={-185.52}
+          
+          transform="scale(1 -1)"
+        >
+          <tspan
+            className=""
+            style={{ strokeWidth: 0.75 }}
+            x={1060}
+            y={-2135}
+          >
+            {"[VR AIR: BUBBLE BROWN]" }
           </tspan>
         </text>
       </a>
@@ -45660,10 +45685,10 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={450}
+            x={600}
             y={-1948}
           >
-            {"[VR VEST: URBAN TERRAIN] "}
+            {"[VR TERRAIN: 1S] "}
           </tspan>
         </text>
       </a>
@@ -45710,10 +45735,10 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={500}
+            x={580}
             y={-1800}
           >
-            {"[VR VEST: AIR CANVAS] "}
+            {"[VR AIR: CANVAS] "}
           </tspan>
         </text>
       </a>
@@ -45735,10 +45760,10 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={430}
+            x={505}
             y={-1610}
           >
-            {"[VR VEST: AIR BUBBLE BLACK] "}
+            {"[VR AIR: BUBBLE BLACK] "}
           </tspan>
         </text>
       </a>
@@ -45785,10 +45810,10 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={438}
+            x={455}
             y={-1438}
           >
-            {"[VR VEST: AIR CARBON] "}
+            {"[VR AIR: CARBON]"}
           </tspan>
         </text>
       </a>
@@ -45834,7 +45859,7 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={1129}
+            x={1145}
             y={-1981}
           >
             {"[VR: THERMAL PANTS] "}
@@ -45858,7 +45883,7 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={1110}
+            x={1125}
             y={-1625}
           >
             {"[VR: NFC SHORTS] "}
@@ -45906,10 +45931,10 @@ const MobileBackground = (props) => (
           <tspan
             className=""
             style={{ strokeWidth: 0.75 }}
-            x={1360}
+            x={1375}
             y={-1203}
           >
-            {"[VR: HAND WARMER] "}
+            {"[VR: SHEATH WARMER] "}
           </tspan>
         </text>
       </a>

@@ -23,8 +23,8 @@ function CarbonComp() {
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
-              <p className='font-bold'>VR VEST: AIR CARBON</p> <br />
-            The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+              <p className='font-bold'>VR AIR: CARBON</p> <br />
+              This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Carbon vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The unique patina like texture on the heavy cotton explores textile materially interpretation.
             <br />
             <br />
             <Counter />

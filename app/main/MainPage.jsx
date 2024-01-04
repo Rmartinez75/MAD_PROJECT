@@ -12,6 +12,7 @@ import TerrainComp from "@components/vest/urban-terrain/TerrainComp"
 import MobileBackground from "@components/backgrounds/MobileBackground"
 import BubbleBlackComp from "@components/vest/bubble-black/BubbleBlackComp"
 import CarbonComp from "@components/vest/air-carbon/CarbonComp"
+import BubbleBrownComp from "@components/vest/bubble-brown/BubbleBrownComp"
 
 
 const MainPage = () => {
@@ -20,13 +21,9 @@ const MainPage = () => {
       <Background />
       <MobileBackground />
       <SectionDivider />
-      <GoldenLeafComp />
-      <SectionDivider />
-      <TerrainComp />
-      <SectionDivider />
       <VestComp />
       <SectionDivider />
-      <BubbleBlackComp />
+      <BubbleBrownComp />
       <SectionDivider />
       <CarbonComp />
       <SectionDivider />
@@ -35,6 +32,12 @@ const MainPage = () => {
       <ShortsComp />
       <SectionDivider />
       <HandWarmerComp />
+      <SectionDivider />
+      <GoldenLeafComp />
+      <SectionDivider />
+      <BubbleBlackComp />
+      <SectionDivider />
+      <TerrainComp />
       <ScrollToTopButton /> 
     </div>
   )

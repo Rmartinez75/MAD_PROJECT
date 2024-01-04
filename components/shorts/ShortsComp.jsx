@@ -21,7 +21,7 @@ function ShortsComp() {
         <div className='box-content h-auto w-1/4 ml-[5%] mr-5'>
           <div style={{fontSize: '12px'}}>
           <p className='font-bold'>VR: NFC SHORTS</p> <br />
-          The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+          The VR NFC shorts come with programmable NFC chips installed. Originally designed to assist individuals with memorizing daily tasks but not limited to just that. This programmable chip allows users to program themselves as needed in whatever way users find it convenient. Made entirely of synthetic neoprene these shorts are very comfortable on the skin and absorb sweat and moisture making it a great activewear. 
           <br />
           <br />
           <Counter />

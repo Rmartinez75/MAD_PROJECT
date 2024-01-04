@@ -21,8 +21,8 @@ function TerrainComp() {
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
-              <p className='font-bold'>VR VEST: URBAN TERRAIN</p> <br />
-            The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+              <p className='font-bold'>VR TERRAIN: 1S</p> <br />
+              A concept design. Inspired by the terrain of the city and the circuits on a PCB board. The VR Terrain (concept) explorers textile layering and how this technique can be used to transform a 2D textile into a 3D wearable technology that conforms to the body. 
             <br />
             <br />
             <Counter />

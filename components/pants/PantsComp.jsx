@@ -20,7 +20,7 @@ function PantsComp() {
         </div> 
         <div className='box-content h-auto w-1/4 ml-[5%] mr-5' style={{fontSize: '12px'}}> 
             <p className='font-bold'>VR: THERMAL PANTS</p> <br />           
-            The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+            An environmental awareness device. The VR thermal is a prototype pant, the first of its kind, designed for mobility, comfort and efficiency. This device houses an environmental temperature reader with Bluetooth capabilities. With the VR prototype pants you can read environmental temperature information via your phones or from viewing the indicated color from the embedded led fitted into the pants which allows users to travel long distances and have an understanding of shifting temperatures without necessarily having to use a phone or any other device but their eyes. See specifications for additional information.
           <br />
           <br />
           <Counter />                     

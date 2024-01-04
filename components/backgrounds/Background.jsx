@@ -36968,7 +36968,7 @@ const Background = (props) => (
             d="M0 0v0"
             style={{
               fill: "none",
-              stroke: "#000",
+              stroke: "red",
               strokeWidth: 5,
               strokeLinecap: "round",
               strokeLinejoin: "round",
@@ -50596,8 +50596,27 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={177} y={-623} className="vest">
-                {"[VR VEST: GOLDEN LEAF] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={215} y={-623} className="vest">
+                {"[VR: GOLDEN LEAF] "}
+              </tspan>
+            </text>
+          </a>
+          <a xlinkHref="#vest-bubblebrown-section">
+            <text
+              xmlSpace="preserve"
+              style={{
+                fontSize: 7.5,
+                fontFamily: "isocteur",
+                InkscapeFontSpecification: "isocteur",
+                fill: "#000",
+                strokeWidth: 0.75,
+              }}
+              x={141.741}
+              y={-489.589}
+              transform="scale(1 -1)"
+            >
+              <tspan style={{ strokeWidth: 0.75 }} x={390} y={-500} className="vest">
+                {"[VR AIR: BUBBLE BROWN] "}
               </tspan>
             </text>
           </a>
@@ -50615,8 +50634,8 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={145} y={-567} className="vest">
-                {"[VR VEST: URBAN TERRAIN] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={205} y={-567} className="vest">
+                {"[VR TERRAIN: 1S] "}
               </tspan>
             </text>
           </a>
@@ -50634,8 +50653,8 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={150} y={-489.58884} className="vest">
-                {"[VR VEST: AIR CANVAS] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={187} y={-489.58884} className="vest">
+                {"[VR AIR: CANVAS] "}
               </tspan>
             </text>
           </a>
@@ -50653,8 +50672,8 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={90} y={-401} className="vest">
-                {"[VR VEST: AIR BUBBLE BLACK] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={130} y={-401} className="vest">
+                {"[VR AIR: BUBBLE BLACK] "}
               </tspan>
             </text>
           </a>
@@ -50672,8 +50691,8 @@ const Background = (props) => (
               y={-489.589}
               transform="scale(1 -1)"
             >
-              <tspan style={{ strokeWidth: 0.75 }} x={140} y={-297} className="vest">
-                {"[VR VEST: AIR CARBON] "}
+              <tspan style={{ strokeWidth: 0.75 }} x={175} y={-297} className="vest">
+                {"[VR AIR: CARBON] "}
               </tspan>
             </text>
           </a>
@@ -50730,7 +50749,7 @@ const Background = (props) => (
               transform="scale(1 -1)"
             >
               <tspan style={{ strokeWidth: 0.75 }} x={745} y={-440} className="shorts">
-                {"[VR: HAND WARMER] "}
+                {"[VR: SHEATH WARMER] "}
               </tspan>
             </text>
           </a>

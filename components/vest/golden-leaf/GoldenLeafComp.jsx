@@ -21,8 +21,8 @@ function GoldenLeafComp() {
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
-              <p className='font-bold'>VR VEST: GOLDEN LEAF</p> <br />
-            The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+              <p className='font-bold'>VR: GOLDEN LEAF</p> <br />
+              The VR golden leaf is a conceptual piece designed for gorilla warfare. This vest has the capacity to house plates inside and allows users to wear loosely for mobility or fitted depending on the situation. Fidlocks are used for easy strap and off mechanics.
             <br />
             <br />
             <Counter />            
