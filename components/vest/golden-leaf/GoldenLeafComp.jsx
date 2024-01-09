@@ -28,6 +28,24 @@ function GoldenLeafComp() {
         </div>
       </div>    
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className='hidden lg:flex justify-between'>
       </div>
       <GoldenLeafMobileCarousel />
