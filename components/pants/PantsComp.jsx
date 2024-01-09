@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import Counter from '../Counter'
 import PantsCarousel from './PantsCarousel'
-import DownloadLink from '@components/DownloadLink'
 import PantsMobileCarousel from './PantsMobileCarousel'
 
 function PantsComp() {
@@ -26,14 +25,10 @@ function PantsComp() {
           <Counter />                     
         </div>            
       </div>
-      <br />
       <div className='hidden lg:flex justify-between'>
         <div>         
           <Image src='/assets/images/pants-schema.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
         </div>
-        {/* <div className='flex items-center mr-[250px]'> 
-          <DownloadLink />  
-        </div> */}
       </div>
       <PantsMobileCarousel />
     </div>
