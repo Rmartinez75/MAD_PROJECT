@@ -1,10 +1,9 @@
 
-import Image from 'next/image'
 import '@styles/main-page.css'
 import Counter from '@components/Counter'
 import BubbleBlackCarousel from './BubbleBlackCarousel'
-import DownloadLink from '../../DownloadLink'
 import BubbleBlackMobileCarousel from './BubbleBlackMobileCarousel'
+import VestSchematics from '@components/VestSchematics'
 
 
 function BubbleBlackComp() {
@@ -34,12 +33,7 @@ function BubbleBlackComp() {
       </div>
       <br />
       <div className='hidden lg:flex justify-between'>
-        <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
-        </div>
-        {/* <div className='flex items-center mr-[250px]'> 
-          <DownloadLink />  
-        </div> */}
+        <VestSchematics />
       </div>
 
       <BubbleBlackMobileCarousel />

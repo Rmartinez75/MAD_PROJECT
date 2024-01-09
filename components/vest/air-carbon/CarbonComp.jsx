@@ -1,10 +1,9 @@
 
-import Image from 'next/image'
 import '@styles/main-page.css'
 import Counter from '@components/Counter'
 import CarbonCarousel from './CarbonCarousel'
-import DownloadLink from '../../DownloadLink'
 import CarbonMobileCarousel from './CarbonMobileCarousel'
+import VestSchematics from '@components/VestSchematics'
 
 
 function CarbonComp() {
@@ -33,12 +32,7 @@ function CarbonComp() {
       </div>
       <br />
       <div className='hidden lg:flex justify-between'>
-        <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
-        </div>
-        {/* <div className='flex items-center mr-[250px]'> 
-          <DownloadLink />  
-        </div> */}
+        <VestSchematics />
       </div>
       <CarbonMobileCarousel />
     </div>

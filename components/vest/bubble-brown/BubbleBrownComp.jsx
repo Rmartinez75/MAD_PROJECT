@@ -1,10 +1,9 @@
 
-import Image from 'next/image'
 import '@styles/main-page.css'
 import Counter from '@components/Counter'
 import BubbleBrownCarousel from './BubbleBrownCarousel'
-import DownloadLink from '../../DownloadLink'
 import BubbleBrownMobileCarousel from './BubbleBrownMobileCarousel'
+import VestSchematics from '@components/VestSchematics'
 
 
 function BubbleBrownComp() {
@@ -25,7 +24,7 @@ function BubbleBrownComp() {
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
               <p className='font-bold'>VR AIR: BUBBLE BROWN</p> <br />
-              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings.
+              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The front pouch pocket houses the power supply and can be used for additional storage. 
             <br />
             <br />
             <Counter />
@@ -34,12 +33,7 @@ function BubbleBrownComp() {
       </div>
       <br />
       <div className='hidden lg:flex justify-between'>
-        <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
-        </div>
-        {/* <div className='flex items-center mr-[250px]'> 
-          <DownloadLink />  
-        </div> */}
+        <VestSchematics />
       </div>
 
       <BubbleBrownMobileCarousel />

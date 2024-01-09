@@ -1,8 +1,6 @@
 
-import Image from 'next/image'
 import Counter from '@components/Counter'
 import GoldenLeafCarousel from './GoldenLeafCarousel'
-import DownloadLink from '@components/DownloadLink'
 import GoldenLeafMobileCarousel from './GoldenLeafMobileCarousel'
 
 
@@ -31,12 +29,6 @@ function GoldenLeafComp() {
       </div>    
       <br />
       <div className='hidden lg:flex justify-between'>
-        <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
-        </div>
-        {/* <div className='flex items-center mr-[250px]'> 
-          <DownloadLink />  
-        </div> */}
       </div>
       <GoldenLeafMobileCarousel />
     </div>

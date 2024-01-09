@@ -32,7 +32,7 @@ function HandWarmerComp() {
       <br />
       <div className='hidden lg:flex justify-between'>
         <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
+          <Image src='/assets/images/HEATPAD.png' alt='VEST SCHEMATICS' width={800} height={500} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  

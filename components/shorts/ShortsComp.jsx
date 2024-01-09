@@ -28,10 +28,10 @@ function ShortsComp() {
           </div>          
         </div>
       </div>
-      <br />
+      {/* <br /> */}
       <div className='hidden lg:flex justify-between'>
         <div className='ml-10'>         
-          <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={800} height={500} />    
+          <Image src='/assets/images/shorts-schematics.png' alt='SHORTS SCHEMATICS' width={700} height={100} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  
