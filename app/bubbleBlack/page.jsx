@@ -1,4 +1,5 @@
 
+import '@styles/pages.css'
 import LargeImageComp from "@pageComponents/LargeImageComp"
 import SmallBottomComp from "@pageComponents/SmallBottomComp"
 import SmallTopComp from "@pageComponents/SmallTopComp"
