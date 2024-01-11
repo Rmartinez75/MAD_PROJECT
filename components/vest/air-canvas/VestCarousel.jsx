@@ -14,7 +14,7 @@ function VestCarousel() {
   
   return (
     <div className="hidden lg:flex">
-      <Carousel autoSlide={true}>
+      <Carousel autoSlide={true} autoSlideInterval={3500}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
         ))}

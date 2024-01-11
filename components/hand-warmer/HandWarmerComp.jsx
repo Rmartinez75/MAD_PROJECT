@@ -16,7 +16,7 @@ function HandWarmerComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_HAND_WARMERS/square4.png' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
+          <div className='p-0.5 w-[404px]'>
             <HandWarmerCarousel />                
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
@@ -29,10 +29,10 @@ function HandWarmerComp() {
             </div>          
         </div>
       </div>     
-      <br />
+
       <div className='hidden lg:flex justify-between'>
         <div className='ml-10'>         
-          <Image src='/assets/images/HEATPAD.png' alt='VEST SCHEMATICS' width={800} height={500} />    
+          <Image src='/assets/images/HEAT-PAD.svg' alt='VEST SCHEMATICS' width={1000} height={500} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  

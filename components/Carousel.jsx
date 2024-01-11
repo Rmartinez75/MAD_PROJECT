@@ -6,7 +6,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons"
 function Carousel({
   children: slides,
   autoSlide = false,
-  autoSlideInterval = 3500,
+  autoSlideInterval,
 }) {
 
   const [curr, setCurr] = useState(0)
@@ -22,7 +22,7 @@ function Carousel({
 
   return (
     <div className='overflow-hidden relative'>
-      <div className='flex max-w-[400px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
+      <div className='flex max-w-[900px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
         {/* <button onClick={prev} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
           <ChevronLeftIcon />

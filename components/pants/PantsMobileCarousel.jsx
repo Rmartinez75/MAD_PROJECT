@@ -19,7 +19,7 @@ const slides = [
 function PantsMobileCarousel() {
   return (
     <div className="block lg:hidden m-4">
-      <Carousel autoSlide={true}>
+      <Carousel autoSlide={true} autoSlideInterval={3500}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
         ))}

@@ -14,7 +14,7 @@ function PantsComp() {
         <div className='p-0.5 rounded-xl'>
             <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_02_NEW.jpeg' alt='PANTS-2' width={400} height={250} />
         </div>
-        <div className='p-0.5 rounded-xl'>
+        <div className='p-0.5 rounded-xl w-[404px]'>
             <PantsCarousel />
         </div> 
         <div className='box-content h-auto w-1/4 ml-[5%] mr-5' style={{fontSize: '12px'}}> 

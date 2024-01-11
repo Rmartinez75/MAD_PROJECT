@@ -15,7 +15,7 @@ function ShortsComp() {
         <div className='p-0.5 rounded-xl'>
             <Image src='/assets/images/VR_NFC_SHORTS/VR_NFC_SHORTS_01.jpeg' alt='VEST-2' width={400} height={250} />
         </div>
-        <div className='p-0.5 rounded-xl'>
+        <div className='p-0.5 rounded-xl w-[404px]'>
             <ShortsCarousel />
         </div>
         <div className='box-content h-auto w-1/4 ml-[5%] mr-5'>
@@ -28,16 +28,17 @@ function ShortsComp() {
           </div>          
         </div>
       </div>
-      {/* <br /> */}
+      <br />
       <div className='hidden lg:flex justify-between'>
         <div className='ml-10'>         
-          <Image src='/assets/images/shorts-schematics.png' alt='SHORTS SCHEMATICS' width={700} height={100} />    
+          <Image src='/assets/images/shorts-schematics.svg' alt='SHORTS SCHEMATICS' width={600} height={100} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  
         </div> */}
       </div>
       <ShortsMobileCarousel />
+      <br />
     </div>
   )
 }

@@ -16,7 +16,7 @@ function CarbonComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_CARBON/DSC_0923_2.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
+          <div className='p-0.5 w-[404px]'>
             <CarbonCarousel />
                             
           </div>

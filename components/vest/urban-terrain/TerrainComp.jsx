@@ -14,7 +14,7 @@ function TerrainComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_URBAN_TERRAIN/VR_URBAN_TERRAIN_1_02.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
+          <div className='p-0.5 w-[404px]'>
             <TerrainCarousel />                
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>

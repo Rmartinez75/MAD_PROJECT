@@ -16,10 +16,8 @@ function BubbleBlackComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_BUBBLE_BLACK/square2.png' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
-            
-            <BubbleBlackCarousel />
-                            
+          <div className='p-0.5 w-[404px]'>            
+            <BubbleBlackCarousel />                            
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>

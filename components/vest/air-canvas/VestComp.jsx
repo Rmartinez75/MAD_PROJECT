@@ -15,7 +15,7 @@ function VestComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
+          <div className='p-0.5 w-[404px]'>
             <VestCarousel />
                             
           </div>

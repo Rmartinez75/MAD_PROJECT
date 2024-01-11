@@ -16,10 +16,8 @@ function BubbleBrownComp() {
           <div className='p-0.5'>
             <img src='/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE3/VR_AIR_BUBBLE_BROWN_02.jpeg' alt='VEST-2' className='w-[400px]' />
           </div>
-          <div className='p-0.5'>
-            
-            <BubbleBrownCarousel />
-                            
+          <div className='p-0.5 w-[404px]'>            
+            <BubbleBrownCarousel />                            
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
