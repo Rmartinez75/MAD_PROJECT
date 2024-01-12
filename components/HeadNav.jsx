@@ -41,7 +41,7 @@ function HeadNav() {
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Vest</Link></DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Pants</Link></DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Shorts</Link></DropdownMenu.Item>
-                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Hand Warmer</Link></DropdownMenu.Item>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Sheath Warmer</Link></DropdownMenu.Item>
                   <hr />
                   <DropdownMenu.Item className='item flex text-black pt-6 pb-6'><AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' /><Link href={'/'}>Database</Link></DropdownMenu.Item>
                 </DropdownMenu.Content>

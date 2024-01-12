@@ -4,6 +4,7 @@ import Counter from '@components/Counter'
 import BubbleBlackCarousel from './BubbleBlackCarousel'
 import BubbleBlackMobileCarousel from './BubbleBlackMobileCarousel'
 import VestSchematics from '@components/VestSchematics'
+import Link from 'next/link'
 
 
 function BubbleBlackComp() {
@@ -21,7 +22,9 @@ function BubbleBlackComp() {
           </div>
           <div className='box-content h-auto w-1/4 ml-[5%]'>
             <div style={{fontSize: '12px'}}>
-              <p className='font-bold'>VR AIR: BUBBLE BLACK</p> <br />
+              <Link href={'/bubbleBlack'} className='font-bold'>VR AIR: BUBBLE BLACK</Link> 
+              <br />
+              <br />
               This device was original designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings.
             <br />
             <br />

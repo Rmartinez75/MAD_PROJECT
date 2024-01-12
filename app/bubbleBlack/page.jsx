@@ -31,6 +31,26 @@ function page() {
         <p style={{fontSize: '12px'}}>
           The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
         </p>
+        <br />
+        <br />
+        <br />
+        <p style={{fontSize: '12px'}}>
+          TEXTILE
+        </p>
+        <br />
+        <p style={{fontSize: '12px'}}>
+          Compact stretch nylon for warmth and comfort with a water resistant finish
+        </p>
+        <br />
+        <br />
+        <br />
+        <p style={{fontSize: '12px'}}>
+          TECHNOLOGY 
+        </p>
+        <br />
+        <p style={{fontSize: '12px'}}>
+          ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+        </p>
       </div>
     </div>
     </div>
