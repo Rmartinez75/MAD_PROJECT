@@ -15,7 +15,7 @@ const slides = [
 function LargeImageComp() {
   return (
     <div className="hidden lg:flex">
-      <Carousel autoSlide={true} autoSlideInterval={3000}>
+      <Carousel autoSlide={true} autoSlideInterval={5100}>
         {slides.map((s, i) => (
           <img src={s} key={i}/>
         ))}

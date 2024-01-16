@@ -29,9 +29,9 @@ function ShortsComp() {
         </div>
       </div>
       <br />
-      <div className='hidden lg:flex justify-between'>
-        <div className='ml-10'>         
-          <Image src='/assets/images/shorts-schematics.svg' alt='SHORTS SCHEMATICS' width={600} height={100} />    
+      <div className='hidden lg:flex'>
+        <div className=''>         
+          <Image src='/assets/images/NFC_B.png' alt='SHORTS SCHEMATICS' width={600} height={100} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
           <DownloadLink />  

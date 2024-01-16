@@ -6,9 +6,8 @@ function VestSchematics() {
     <div className='ml-10'>
       <br />
       <br />
-      <Image src='/assets/images/vest-schema.svg' alt='VEST SCHEMATICS' width={600} height={500} /> 
-      <br />
-      <br />   
+      <Image src='/assets/images/vest-schema1.svg' alt='VEST SCHEMATICS' width={600} height={500} /> 
+      <br />       
     </div>
   )
 }

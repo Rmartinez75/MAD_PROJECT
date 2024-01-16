@@ -25,9 +25,9 @@ function PantsComp() {
           <Counter />                     
         </div>            
       </div>
-      <div className='hidden lg:flex justify-between'>
-        <div>         
-          <Image src='/assets/images/pants-schema.png' alt='PANTS SCHEMATICS' width={1200} height={250} />    
+      <div className='hidden lg:flex'>
+        <div className='ml-16 mt-16'>         
+          <Image src='/assets/images/pants-schema1.png' alt='PANTS SCHEMATICS' width={1100} height={250} />    
         </div>
       </div>
       <PantsMobileCarousel />
