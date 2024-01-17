@@ -3,24 +3,31 @@ import '@styles/pages.css'
 import LargeImageComp from "@pageComponents/LargeImageComp"
 import SmallBottomComp from "@pageComponents/SmallBottomComp"
 import SmallTopComp from "@pageComponents/SmallTopComp"
+import VestSchematics from '@components/VestSchematics'
 
 function page() {
   return (
     <div className="pages">
       <div className="flex justify-center">
-        <div className="w-[900px] mt-2 mb-2">
-          <LargeImageComp />
-          
-        </div>
-        <div className="mt-2 ml-2 w-[319px]">
-          <div className='mb-[10px]'>
-            <SmallTopComp />
+        <div className="block">
+          <div className="flex">
+            <div className="w-[900px] mt-8 mb-2">
+              <LargeImageComp />          
+            </div>
+            <div className="mt-8 ml-2 w-[319px]">
+              <div className='mb-[10px]'>
+                <SmallTopComp />
+              </div>
+              <div>
+                <SmallBottomComp />
+              </div>
+            </div>
           </div>
-          <div>
-            <SmallBottomComp />
+          <div className="mt-5">
+            <VestSchematics />
           </div>
         </div>
-        <div className="ml-6 mr-2 mt-2 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
+        <div className="ml-6 mr-2 mt-8 w-[525px]" style={{ height: '600px', overflow: 'scroll'}}>
           <p className="font-bold" style={{fontSize: '14px'}}>
             VR: AIRVEST
           </p>

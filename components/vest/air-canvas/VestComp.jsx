@@ -21,7 +21,7 @@ function VestComp() {
               <VestCarousel />                            
             </div>
           </div>
-          <div className='hidden lg:flex justify-between'>
+          <div className='hidden lg:flex mt-5 justify-between'>
             <VestSchematics />
           </div>
         </div>
