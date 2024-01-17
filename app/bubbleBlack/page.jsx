@@ -8,12 +8,11 @@ function page() {
   return (
     <div className="pages">
       <div className="flex justify-center">
-        <div className="w-[900px] mt-10 mb-2">
+        <div className="w-[900px] mt-2 mb-2">
           <LargeImageComp />
-          <br />
-          <br />
+          
         </div>
-        <div className="mt-10 ml-2 w-[319px]">
+        <div className="mt-2 ml-2 w-[319px]">
           <div className='mb-[10px]'>
             <SmallTopComp />
           </div>
@@ -21,7 +20,7 @@ function page() {
             <SmallBottomComp />
           </div>
         </div>
-        <div className="ml-6 mr-2 mt-10 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
+        <div className="ml-6 mr-2 mt-2 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
           <p className="font-bold" style={{fontSize: '14px'}}>
             VR: AIRVEST
           </p>
