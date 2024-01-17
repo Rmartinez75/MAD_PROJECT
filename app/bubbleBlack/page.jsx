@@ -9,10 +9,10 @@ function page() {
   return (
     <div className="pages">
       <div className="flex justify-center">
-        <div className="w-[900px] mt-2 mb-2">
+        <div className="w-[900px] mt-8 mb-2">
           <LargeImageComp />          
         </div>
-        <div className="mt-2 ml-2 w-[319px]">
+        <div className="mt-8 ml-2 w-[319px]">
           <div className='mb-[10px]'>
             <SmallTopComp />
           </div>
@@ -20,7 +20,7 @@ function page() {
             <SmallBottomComp />
           </div>
         </div>
-        <div className="ml-6 mr-2 mt-2 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
+        <div className="ml-6 mr-2 mt-8 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
           <p className="font-bold" style={{fontSize: '14px'}}>
             VR: AIRVEST
           </p>
@@ -61,7 +61,9 @@ function page() {
           <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
         </div>
       </div>
-      {/* <VestSchematics /> */}
+      <div className="mt-8">
+        <VestSchematics />
+      </div>
     </div>
   )
 }
