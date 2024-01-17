@@ -21,7 +21,7 @@ function page() {
             <SmallBottomComp />
           </div>
         </div>
-        <div className="ml-6 mr-2 mt-10 w-[525px]" style={{ height: '600px', overflow: 'scroll'}}>
+        <div className="ml-6 mr-2 mt-10 w-[525px]" style={{ height: '580px', overflow: 'scroll'}}>
           <p className="font-bold" style={{fontSize: '14px'}}>
             VR: AIRVEST
           </p>
