@@ -9,12 +9,10 @@ function page() {
   return (
     <div className="pages">
       <div className="flex justify-center">
-        <div className="block w">
+        <div className="block ml-8" style={{width: '75%'}}>
           <div className="flex">
-            <div className="mt-8 mb-2">
-              <div className='w-[900px]'>
-              <LargeImageComp />  
-              </div>        
+            <div className="w-[900px] mt-8 mb-2">
+              <LargeImageComp />          
             </div>
             <div className="mt-8 ml-2 w-[319px]">
               <div className='mb-[10px]'>
@@ -29,7 +27,7 @@ function page() {
             <VestSchematics />
           </div>
         </div>
-        <div className="ml-6 mr-2 mt-8 w-[525px]" style={{ height: '600px', overflow: 'scroll'}}>
+        <div className="mr-5 mt-8 w-[525px]" style={{ height: '600px', width:'33%', overflow: 'scroll'}}>
           <p className="font-bold" style={{fontSize: '14px'}}>
             VR: AIRVEST
           </p>
