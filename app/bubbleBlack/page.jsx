@@ -9,10 +9,12 @@ function page() {
   return (
     <div className="pages">
       <div className="flex justify-center">
-        <div className="block">
+        <div className="block w">
           <div className="flex">
-            <div className="w-[900px] mt-8 mb-2">
-              <LargeImageComp />          
+            <div className="mt-8 mb-2">
+              <div className='w-[900px]'>
+              <LargeImageComp />  
+              </div>        
             </div>
             <div className="mt-8 ml-2 w-[319px]">
               <div className='mb-[10px]'>
