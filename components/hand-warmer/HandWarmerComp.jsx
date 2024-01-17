@@ -31,7 +31,7 @@ function HandWarmerComp() {
       </div>     
 
       <div className='hidden lg:flex justify-between'>
-        <div className='mt-6'>         
+        <div className=''>         
           <Image src='/assets/images/heatpad_B.png' alt='VEST SCHEMATICS' width={1000} height={500} />    
         </div>
         {/* <div className='flex items-center mr-[250px]'> 
