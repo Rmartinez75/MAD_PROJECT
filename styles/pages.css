@@ -1,3 +1,16 @@
 .pages{
     background-color: #FFF3F3 !important;
 }
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 768px) {
+    .image-window{
+        width: 676px;
+    }
+    
+} */

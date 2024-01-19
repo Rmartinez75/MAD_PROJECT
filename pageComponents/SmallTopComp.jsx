@@ -12,7 +12,7 @@ function SmallTopComp() {
     <div className="hidden lg:flex">
         <Carousel autoSlide={true} autoSlideInterval={2750}>
             {slides.map((s, i) => (
-            <img src={s} key={i}/>
+            <img src={s} key={i} className="max-w-full"/>
             ))}
         </Carousel>
     </div>

@@ -162,7 +162,7 @@ function page() {
   return (
     <div className="pages">
       <div className="flex">
-        <div className="block ml-10">
+        <div className="block ml-10 w-auto">
           <div className="flex">
             <div className="w-[900px] mt-8">
               <LargeImageComp />          
