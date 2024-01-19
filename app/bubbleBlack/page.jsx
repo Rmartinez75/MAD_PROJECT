@@ -160,15 +160,15 @@ import VestSchematics from '@components/VestSchematics'
 
 function page() {
   return (
-    <div className="pages" style={{width: '100%'}}>
-      <div className="flex justify-center">
-        <div className="block w-[500px] lg:w-auto ml-10">
-          <div className="flex max-w-screen-2xl">
-            <div className="w-[900px] mt-8 mb-2">
+    <div className="pages">
+      <div className="flex">
+        <div className="block ml-10">
+          <div className="flex">
+            <div className="w-[900px] mt-8">
               <LargeImageComp />          
             </div>
             <div className="mt-8 ml-2 w-[319px]">
-              <div className='mb-[10px]'>
+              <div className='mb-2'>
                 <SmallTopComp />
               </div>
               <div>
@@ -181,7 +181,7 @@ function page() {
           </div>
         </div>
         <div className='w-auto ml-5 mr-10'>
-          <div className="mt-8" style={{ height: '1050px', overflow: 'scroll'}}>
+          <div className="mt-8 overflow-scroll h-[1050px]">
             <p className="font-bold" style={{fontSize: '14px'}}>
               VR: AIRVEST
             </p>
