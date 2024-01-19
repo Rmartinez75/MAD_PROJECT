@@ -162,7 +162,7 @@ function page() {
   return (
     <div className="pages" style={{width: '100%'}}>
       <div className="flex justify-center">
-        <div className="block w-[900px] ml-10">
+        <div className="block w-[900px] xl:w-auto ml-10">
           <div className="flex">
             <div className="w-[900px] mt-8 mb-2">
               <LargeImageComp />          
