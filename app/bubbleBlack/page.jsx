@@ -176,8 +176,8 @@ function page() {
               </div>
             </div>
           </div>
-          <div className="mt-5" style={{width: '100%'}}>
-            <VestSchematics />
+          <div className="mt-5">
+            {/* <VestSchematics /> */}
           </div>
         </div>
         <div className='w-auto ml-5 mr-10'>
