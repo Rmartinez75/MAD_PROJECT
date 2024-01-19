@@ -162,7 +162,7 @@ function page() {
   return (
     <div className="pages" style={{width: '100%'}}>
       <div className="flex justify-center">
-        <div className="block" style={{width: '75%', marginLeft: '2.5%'}}>
+        <div className="block w-auto ml-10">
           <div className="flex">
             <div className="w-[900px] mt-8 mb-2">
               <LargeImageComp />          
@@ -180,8 +180,8 @@ function page() {
             <VestSchematics />
           </div>
         </div>
-        <div style={{width: '31%', marginRight: '3%'}}>
-          <div className="mt-8 xl:h-[600px] lg:h-[325px]" style={{ height: '1050px', width:'100%', overflow: 'scroll'}}>
+        <div className='w-auto ml-5 mr-10'>
+          <div className="mt-8 " style={{ height: '1050px', width:'100%', overflow: 'scroll'}}>
             <p className="font-bold" style={{fontSize: '14px'}}>
               VR: AIRVEST
             </p>
