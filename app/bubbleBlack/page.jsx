@@ -162,8 +162,8 @@ function page() {
   return (
     <div className="pages" style={{width: '100%'}}>
       <div className="flex justify-center">
-        <div className="block w-[900px] lg:w-auto ml-10">
-          <div className="flex">
+        <div className="block w-auto ml-10">
+          <div className="flex w-auto">
             <div className="w-[900px] mt-8 mb-2">
               <LargeImageComp />          
             </div>
@@ -176,8 +176,8 @@ function page() {
               </div>
             </div>
           </div>
-          <div className="mt-5">
-            {/* <VestSchematics /> */}
+          <div className="mt-5 w-auto">
+            <VestSchematics />
           </div>
         </div>
         <div className='w-auto ml-5 mr-10'>
