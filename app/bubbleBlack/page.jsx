@@ -237,7 +237,7 @@ import VestSchematics from '@components/VestSchematics'
 
 function page() {
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center max-w-full'>
       {/* <div>
         <div className='grid grid-cols-3 justify-center text-center w-[900px] border-2 m-5 gap-5 h-96'>
         <div>Hello</div>

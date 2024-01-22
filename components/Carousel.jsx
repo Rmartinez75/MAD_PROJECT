@@ -34,7 +34,7 @@ function Carousel({
       <div className='absolute bottom-4 right-0 left-0'>
         <div className='flex items-center justify-center gap-2 cursor-pointer'>
           {slides.map((_, i) => (
-            <div onClick={() => { setCurr(i)}} key={i} className={`transition-all w-3 h-3 bg-white rounded-full ${curr === i ? 'p-1': 'bg-opacity-25'}`} />
+            <div onClick={() => { setCurr(i)}} key={i} className={`transition-all w-0.5 h-0.5 bg-white rounded-full ${curr === i ? 'p-1': 'bg-opacity-25'}`} />
           ))}
         </div>
       </div>
