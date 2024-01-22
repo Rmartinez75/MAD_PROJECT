@@ -11,7 +11,7 @@ const slides = [
 
 function SmallBottomComp() {
   return (
-    <div className="hidden lg:flex">
+    <div>
         <Carousel autoSlide={true} autoSlideInterval={5000}>
             {slides.map((s, i) => (
             <img src={s} key={i} className="max-w-full"/>
