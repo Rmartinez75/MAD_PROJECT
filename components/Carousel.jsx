@@ -1,7 +1,5 @@
 
 import { useEffect, useState } from 'react'
-import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons"
-
 
 function Carousel({
   children: slides,
@@ -22,19 +20,12 @@ function Carousel({
 
   return (
     <div className='overflow-hidden relative'>
-      <div className='flex max-w-[900px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
-      <div className="absolute inset-0 flex items-center justify-between p-4">
-        {/* <button onClick={prev} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
-          <ChevronLeftIcon />
-        </button>
-        <button onClick={next} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
-          <ChevronRightIcon />
-        </button> */}
+      <div className='flex max-w-[900px] transition-transform ease-out duration-500' style={{transform: `translateX(-${curr * 100}%)`}}>{slides}
       </div>
       <div className='absolute bottom-4 right-0 left-0'>
         <div className='flex items-center justify-center gap-2 cursor-pointer'>
           {slides.map((_, i) => (
-            <div onClick={() => { setCurr(i)}} key={i} className={`transition-all w-0.5 h-0.5 bg-white rounded-full ${curr === i ? 'p-1': 'bg-opacity-25'}`} />
+            <div onClick={() => { setCurr(i)}} key={i} className={`transition-all w-1 h-[.1px] bg-white rounded-full ${curr === i ? 'p-1': 'bg-opacity-25'}`} />
           ))}
         </div>
       </div>
@@ -43,4 +34,3 @@ function Carousel({
 }
 
 export default Carousel
-

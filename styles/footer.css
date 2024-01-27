@@ -6,7 +6,8 @@
     left: 0;
 }
 .footer-container-background{    
-    background-color: rgb(211, 204, 204);
+    /* background-color: rgb(211, 204, 204); */
+    background-color: #FFF3F3 !important;
     font-family: "isocteur";
 }
 .footer-container{

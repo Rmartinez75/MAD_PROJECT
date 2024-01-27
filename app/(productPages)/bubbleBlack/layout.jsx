@@ -4,13 +4,14 @@ import HeadNav from '@components/HeadNav'
 import Footer from '@components/Footer'
 
 import '@styles/globals.css'
+import ProductPageFooter from '@components/ProductPageFooter'
 
 export const metadata = {
     title: 'MAD',
     description: '',
 }
 
-const RootLayout = ({children}) => {
+const ProductPageLayout = ({children}) => {
   return (
     <html lang='en'>
       <Head>
@@ -22,10 +23,10 @@ const RootLayout = ({children}) => {
           <main className='app'>            
             {children}             
           </main> 
-        <Footer />
+        <ProductPageFooter />
       </body>
     </html>
   )
 }
 
-export default RootLayout;
+export default ProductPageLayout;
