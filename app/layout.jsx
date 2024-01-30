@@ -1,31 +1,28 @@
 
 import Head from 'next/head'
-import HeadNav from '@components/HeadNav'
-import Footer from '@components/Footer'
+import ScrollToTopButton from '@components/ScrollToTopButton'
 
 import '@styles/globals.css'
+import { Suspense } from 'react'
 
 export const metadata = {
     title: 'MAD',
     description: '',
 }
 
-const RootLayout = ({children}) => {
+const RootLayout = ({ children }) => {
   return (
-    <html lang='en'>
+    <html lang="en">
       <Head>
         <link rel="icon" href='/favicon.ico' />
       </Head>
-
       <body>
-        <HeadNav />
-          <main className='app'>            
-            {children}             
-          </main> 
-        <Footer />
+        <main>
+          {children}       
+        </main>
       </body>
     </html>
   )
 }
 
-export default RootLayout;
+export default RootLayout

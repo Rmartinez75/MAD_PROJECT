@@ -12,12 +12,15 @@ import MobileBackground from "@components/backgrounds/MobileBackground"
 import BubbleBlackComp from "@components/vest/bubble-black/BubbleBlackComp"
 import CarbonComp from "@components/vest/air-carbon/CarbonComp"
 import BubbleBrownComp from "@components/vest/bubble-brown/BubbleBrownComp"
+import HeadNav from "@components/HeadNav"
+import Footer from "@components/Footer"
 
 import '@styles/main-page.css'
 
 const MainPage = () => {
   return (
     <div className="main-page">
+      <HeadNav />
       <Background />
       <MobileBackground />
       <SectionDivider />
@@ -37,8 +40,9 @@ const MainPage = () => {
       <SectionDivider />
       <BubbleBlackComp />
       <SectionDivider />
-      <TerrainComp />
+      <TerrainComp />      
       <ScrollToTopButton /> 
+      <Footer />
     </div>
   )
 }

@@ -10,7 +10,6 @@ import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
 
-
 function HeadNav() {
 
   const [open, setOpen] = useState(false)

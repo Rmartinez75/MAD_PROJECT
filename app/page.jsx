@@ -1,5 +1,5 @@
 
-import MainPage from '@app/main/Page'
+import MainPage from '@app/main/MainPage'
 
 const Home = () => {
   return (
