@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Counter from '../Counter'
 import PantsCarousel from './PantsCarousel'
 import PantsMobileCarousel from './PantsMobileCarousel'
+import Link from 'next/link'
 
 function PantsComp() {
   return (
@@ -11,10 +12,14 @@ function PantsComp() {
         <div className='block'>    
           <div className='flex'>          
             <div className='p-0.5 rounded-xl'>
+              <Link href={'/thermalPants'}>
                 <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_01.jpeg' alt='PANTS-1' width={400} height={250} />
+              </Link>
             </div>
             <div className='p-0.5 rounded-xl'>
+              <Link href={'/thermalPants'}>
                 <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_02_NEW.jpeg' alt='PANTS-2' width={400} height={250} />
+              </Link>
             </div>
             <div className='p-0.5 rounded-xl w-[404px]'>
                 <PantsCarousel />
