@@ -15,77 +15,47 @@ function DropDown() {
                 Vest
             <ChevronDownIcon className='ml-1 mt-1' />
         </DropdownMenu.Trigger>
-        <DropdownMenu.Content loop className='content text-[13px] mt-5 ml-[75px]'>
-        <DropdownMenu.Item className='item flex text-black mt-1 mb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
-            <Link href={'/airCanvas'} className='hover:text-gray-500'>
-                VR Air: Canvas
-            </Link>
-        </DropdownMenu.Item>
-        <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} /> 
-            <Link href={'/bubbleBrown'} className='hover:text-gray-500'>
-                VR Air: Bubble Brown
-            </Link>
-        </DropdownMenu.Item>
-        <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
-            <Link href={'/airCarbon'} className='hover:text-gray-500'>
-                VR Air: Carbon
-            </Link>
-        </DropdownMenu.Item>
-        <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
-            <Link href={'/goldenLeaf'} className='hover:text-gray-500'>
-                VR: Golden Leaf
-            </Link>
-        </DropdownMenu.Item>
-        <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
-            <Link href={'/bubbleBlack'} className='hover:text-gray-500'>
-                VR Air: Bubble Black
-            </Link>
-        </DropdownMenu.Item>
-        <DropdownMenu.Item className='item flex text-black mt-4 pb-4'>
-            <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
-            <Link href={'/urbanTerrain'} className='hover:text-gray-500'>
-                VR Terrain: 1S
-            </Link>
-        </DropdownMenu.Item>
+        <DropdownMenu.Content loop className='content text-[13px] mt-5 mr-[25px]'>
+            <div className='ml-4'>
+                <DropdownMenu.Item className='item flex text-black mt-1 mb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
+                    <Link href={'/airCanvas'} className='hover:text-gray-500'>
+                        VR Air: Canvas
+                    </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} /> 
+                    <Link href={'/bubbleBrown'} className='hover:text-gray-500'>
+                        VR Air: Bubble Brown
+                    </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
+                    <Link href={'/airCarbon'} className='hover:text-gray-500'>
+                        VR Air: Carbon
+                    </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
+                    <Link href={'/goldenLeaf'} className='hover:text-gray-500'>
+                        VR: Golden Leaf
+                    </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
+                    <Link href={'/bubbleBlack'} className='hover:text-gray-500'>
+                        VR Air: Bubble Black
+                    </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Item className='item flex text-black mt-4 pb-4'>
+                    <AiTwotoneUpCircle className='mr-4 mt-1 text-[#28231d]' size={10} />
+                    <Link href={'/urbanTerrain'} className='hover:text-gray-500'>
+                        VR Terrain: 1S
+                    </Link>
+                </DropdownMenu.Item>
+            </div>
         </DropdownMenu.Content>
     </DropdownMenu.Root>
-    // <div>
-    //     <DropdownMenu.Item className='item flex text-black mt-6 mb-4'>
-    //         <Link href={'/airCanvas'} className='hover:text-gray-500'>
-    //             VR Air: Canvas
-    //         </Link>
-    //     </DropdownMenu.Item>
-    //     <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-    //         <Link href={'/bubbleBrown'} className='hover:text-gray-500'>
-    //             VR Air: Bubble Brown
-    //         </Link>
-    //     </DropdownMenu.Item>
-    //     <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-    //         <Link href={'/airCarbon'} className='hover:text-gray-500'>
-    //             VR Air: Carbon
-    //         </Link>
-    //     </DropdownMenu.Item>
-    //     <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-    //         <Link href={'/goldenLeaf'} className='hover:text-gray-500'>
-    //             VR: Golden Leaf
-    //         </Link>
-    //     </DropdownMenu.Item>
-    //     <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-    //         <Link href={'/bubbleBlack'} className='hover:text-gray-500'>
-    //             VR Air: Bubble Black
-    //         </Link>
-    //     </DropdownMenu.Item>
-    //     <DropdownMenu.Item className='item flex text-black mt-4'>
-    //         <Link href={'/urbanTerrain'} className='hover:text-gray-500'>
-    //             VR Terrain: 1S
-    //         </Link>
-    //     </DropdownMenu.Item>
-    // </div>
   )
 }
 
