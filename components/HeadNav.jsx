@@ -9,6 +9,7 @@ import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
+import DropDown from './DropDown';
 
 function HeadNav() {
 
@@ -40,28 +41,27 @@ function HeadNav() {
                   <ChevronDownIcon className='ml-1 mt-1' />
                 </DropdownMenu.Trigger>
                 <DropdownMenu.Content loop className='content text-[13px] mt-5 ml-[75px]'>
+                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>                                     
+                    {/* Vest Dropdown Menu */}
+                    <div className='mr-10'>
+                      <DropDown />
+                    </div>
+                  </DropdownMenu.Item>                  
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
                     <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <p>
-                      Vest
-                      
-                    </p>
-                  </DropdownMenu.Item>
-                  <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
-                    <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <Link href={'/'}>
+                    <Link href={'/thermalPants'}>
                       Pants
                     </Link>
                   </DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
                     <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <Link href={'/'}>
+                    <Link href={'/nfcShorts'}>
                       Shorts
                     </Link>
                   </DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
                     <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <Link href={'/'}>
+                    <Link href={'/handWarmer'}>
                       Sheath Warmer
                     </Link>
                   </DropdownMenu.Item>
