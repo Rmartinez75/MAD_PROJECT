@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer-container-background">               
                 <div className="footer-container">                  
                     <div className="footer-section-wrapper">
-                        <div className="footer-section text-center">
+                        <div className="footer-section text-left">
                             <p className="footer-category">RESOURCES</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
@@ -37,7 +37,7 @@ function Footer() {
                             </li>
                             </nav>
                         </div>
-                        <div className="footer-section text-center">
+                        <div className="footer-section text-left">
                             <p className="footer-category">COMMUNITY</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
@@ -54,7 +54,7 @@ function Footer() {
                             </li>
                             </nav>
                         </div>
-                        <div className="footer-section text-center">
+                        <div className="footer-section text-left">
                             <p className="footer-category">CONTACT</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
