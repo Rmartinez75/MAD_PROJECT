@@ -4,6 +4,7 @@ import Counter from '@components/Counter'
 import VestCarousel from './VestCarousel'
 import VestMobileCarousel from './VestMobileCarousel'
 import VestSchematics from '@components/VestSchematics'
+import Link from 'next/link'
 
 function VestComp() {
   return (    
@@ -12,10 +13,14 @@ function VestComp() {
         <div className='block'>
           <div className="flex">
             <div className='p-0.5'>
-              <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
+              <Link href={'/airCanvas'}>
+                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
+              </Link>
             </div>       
             <div className='p-0.5'>
-              <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
+              <Link href={'/airCanvas'}>
+                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
+              </Link>
             </div>
             <div className='p-0.5 w-[404px]'>
               <VestCarousel />                            
