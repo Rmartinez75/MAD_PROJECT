@@ -73,7 +73,7 @@ function page() {
         <div className='w-auto ml-5 mr-10'>
           <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar">
             <p className="font-bold" style={{fontSize: '14px'}}>
-              VR: AIRVEST
+              VR TERRAIN: 1S
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
@@ -81,7 +81,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The front pouch pocket houses the power supply and can be used for additional storage. 
             </p>
             <br />
             <br />

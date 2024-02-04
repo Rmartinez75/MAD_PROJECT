@@ -71,7 +71,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm 
+              A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm. 
             </p>
             <br />
             <br />

@@ -73,7 +73,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-            An environmental awareness device. The VR thermal is a prototype pant, the first of its kind, designed for mobility, comfort and efficiency. This device houses an environmental temperature reader with Bluetooth capabilities. With the VR prototype pants you can read environmental temperature information via your phones or from viewing the indicated color from the embedded led fitted into the pants which allows users to travel long distances and have an understanding of shifting temperatures without necessarily having to use a phone or any other device but their eyes. See specifications for additional information.
+              An environmental awareness device. The VR thermal is a prototype pant, the first of its kind, designed for mobility, comfort and efficiency. This device houses an environmental temperature reader with Bluetooth capabilities. With the VR prototype pants you can read environmental temperature information via your phones or from viewing the indicated color from the embedded led fitted into the pants which allows users to travel long distances and have an understanding of shifting temperatures without necessarily having to use a phone or any other device but their eyes. See specifications for additional information.
             </p>
             <br />
             <br />

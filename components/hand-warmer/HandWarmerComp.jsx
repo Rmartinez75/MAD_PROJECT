@@ -27,7 +27,7 @@ function HandWarmerComp() {
         <div className='box-content h-auto w-1/4 ml-[5%]'>
           <div style={{fontSize: '12px'}}>
             <p className='font-bold'>VR: SHEATH WARMER</p> <br />
-            A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm 
+            A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm. 
           <br />
           <br />
           <Counter />
