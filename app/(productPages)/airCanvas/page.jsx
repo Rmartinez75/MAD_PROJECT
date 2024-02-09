@@ -13,14 +13,19 @@ const largeImageSlides = [
   '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE1/4.png',
 ]
 
-const smallTopSlides = [
+const largeImageSlides2 = [
   '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/1.png',
   '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/2.png',
   '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/3.png',
+  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/4.png',
+]
+
+const smallTopSlides = [
+  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE3/1.jpeg',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE3/4.png',
+  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE4/2.jpeg',
   ]
 
 function page() {
@@ -29,12 +34,21 @@ function page() {
       <div className="flex">
         <div className="block ml-10 w-auto">
           <div className="flex">
-            <div className="w-[900px] mt-8">
-              <Carousel autoSlide={true} autoSlideInterval={8500}>
-                {largeImageSlides.map((s, i) => (
-                  <img src={s} key={i} className="max-w-full"/>
-                ))}
-              </Carousel>
+            <div className='flex'>
+              <div className="w-[465px] mt-8">
+                <Carousel autoSlide={true} autoSlideInterval={8500}>
+                  {largeImageSlides.map((s, i) => (
+                    <img src={s} key={i} className="max-w-full"/>
+                  ))}
+                </Carousel>
+              </div>
+              <div className="w-[465px] mt-8 ml-2">
+                <Carousel autoSlide={true} autoSlideInterval={8500}>
+                  {largeImageSlides2.map((s, i) => (
+                    <img src={s} key={i} className="max-w-full"/>
+                  ))}
+                </Carousel>
+              </div>
             </div>
             <div className="mt-8 ml-2 w-[319px]">
               <div>

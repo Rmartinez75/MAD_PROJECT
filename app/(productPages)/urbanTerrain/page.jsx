@@ -16,7 +16,7 @@ const largeImageSlides = [
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/7.png',
 ]
 
-const smallTopSlides = [
+const largeImageSlides2 = [
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/1.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/2.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/3.png',
@@ -24,14 +24,18 @@ const smallTopSlides = [
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/5.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/6.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/7.png',
-  ]
+]
 
-const smallBottomSlides = [
+const smallTopSlides = [
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square1.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square2.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square3.png',
   '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square4.jpeg',
-,
+  ]
+
+const smallBottomSlides = [
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square4.png',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square5.jpeg',
   ]
 
 function page() {
@@ -40,17 +44,26 @@ function page() {
       <div className="flex">
         <div className="block ml-10 w-auto">
           <div className="flex">
-            <div className="w-[900px] mt-8">
-              <Carousel autoSlide={true} autoSlideInterval={8500}>
-                {largeImageSlides.map((s, i) => (
-                  <img src={s} key={i} className="max-w-full"/>
-                ))}
-              </Carousel>
+          <div className='flex'>
+              <div className="w-[465px] mt-8">
+                <Carousel autoSlide={true} autoSlideInterval={9000}>
+                  {largeImageSlides.map((s, i) => (
+                    <img src={s} key={i} className="max-w-full"/>
+                  ))}
+                </Carousel>
+              </div>
+              <div className="w-[465px] mt-8 ml-2">
+                <Carousel autoSlide={true} autoSlideInterval={10000}>
+                  {largeImageSlides2.map((s, i) => (
+                    <img src={s} key={i} className="max-w-full"/>
+                  ))}
+                </Carousel>
+              </div>
             </div>
             <div className="mt-8 ml-2 w-[319px]">
               <div>
                 <div className='mb-2'>
-                  <Carousel autoSlide={true} autoSlideInterval={8100}>
+                  <Carousel autoSlide={true} autoSlideInterval={8250}>
                       {smallTopSlides.map((s, i) => (
                       <img src={s} key={i} className="max-w-full"/>
                       ))}

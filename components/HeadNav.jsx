@@ -55,7 +55,7 @@ function HeadNav() {
                   </DropdownMenu.Item>
                   <DropdownMenu.Item className='item flex text-black mt-4 mb-4'>
                     <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <Link href={'/nfcShorts'}>
+                    <Link href={''}>
                       Shorts
                     </Link>
                   </DropdownMenu.Item>
