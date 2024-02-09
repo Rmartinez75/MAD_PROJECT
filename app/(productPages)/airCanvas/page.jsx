@@ -36,14 +36,14 @@ function page() {
           <div className="flex">
             <div className='flex'>
               <div className="w-[465px] mt-8">
-                <Carousel autoSlide={true} autoSlideInterval={8500}>
+                <Carousel autoSlide={true} autoSlideInterval={9000}>
                   {largeImageSlides.map((s, i) => (
                     <img src={s} key={i} className="max-w-full"/>
                   ))}
                 </Carousel>
               </div>
               <div className="w-[465px] mt-8 ml-2">
-                <Carousel autoSlide={true} autoSlideInterval={8500}>
+                <Carousel autoSlide={true} autoSlideInterval={10000}>
                   {largeImageSlides2.map((s, i) => (
                     <img src={s} key={i} className="max-w-full"/>
                   ))}
@@ -53,7 +53,7 @@ function page() {
             <div className="mt-8 ml-2 w-[319px]">
               <div>
                 <div className='mb-2'>
-                  <Carousel autoSlide={true} autoSlideInterval={8100}>
+                  <Carousel autoSlide={true} autoSlideInterval={8250}>
                       {smallTopSlides.map((s, i) => (
                       <img src={s} key={i} className="max-w-full"/>
                       ))}
