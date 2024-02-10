@@ -27,15 +27,17 @@ const smallBottomSlides = [
 function page() {
   return (
     <div className='flex justify-center items-center max-w-full'>
-      <div className="flex">
-        <div className="block ml-10 w-auto">
+      <div className="flex min-w-0 max-w-full">
+        <div className="block ml-10" style={{width: '75%'}}>
           <div className="flex">
-            <div className="w-[900px] mt-8">
-              <Carousel autoSlide={true} autoSlideInterval={8500}>
-                {largeImageSlides.map((s, i) => (
-                  <img src={s} key={i} className="max-w-full"/>
-                ))}
-              </Carousel>
+            <div className="flex w-[900px] min-w-0">
+              <div className='max-w-full mt-8'>
+                <Carousel autoSlide={true} autoSlideInterval={8500}>
+                  {largeImageSlides.map((s, i) => (
+                    <img src={s} key={i} className="max-w-full"/>
+                  ))}
+                </Carousel>
+              </div>
             </div>
             <div className="mt-8 ml-2 w-[319px]">
               <div>
