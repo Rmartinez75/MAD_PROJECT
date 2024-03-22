@@ -38,7 +38,7 @@ function Footer() {
                             </nav>
                         </div>
                         <div className="footer-section text-left">
-                            <p className="footer-category">COMMUNITY</p>
+                            <p className="footer-category font-extrabold">COMMUNITY</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
                                 <Link href="https://www.youtube.com/channel/UC1dHlk59qcgRElbM6BhK-lA" className="footer-link" target='_blank'>YouTube</Link>
@@ -55,7 +55,7 @@ function Footer() {
                             </nav>
                         </div>
                         <div className="footer-section text-left">
-                            <p className="footer-category">CONTACT</p>
+                            <p className="footer-category font-extrabold">CONTACT</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
                                 <Link href="madstudio.vr@gmail.com" className="footer-link target='_blank">madstudio.vr@gmail.com</Link>
