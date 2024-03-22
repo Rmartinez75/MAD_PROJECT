@@ -65,7 +65,7 @@
     margin-bottom: 0.75rem;
     text-decoration: underline;
     font-size: 12px;
-    font: bold;
+    font: bolder;
 }
 .footer-list{
     display: flex;
