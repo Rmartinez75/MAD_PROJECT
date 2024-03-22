@@ -12,7 +12,7 @@ function Footer() {
                 <div className="footer-container">                  
                     <div className="footer-section-wrapper">
                         <div className="footer-section text-left">
-                            <p className="footer-category font-extrabold">RESOURCES</p>
+                            <p className="footer-category font-black font-extrabold">RESOURCES</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
                                 <Link href="" className="footer-link">Community Database</Link>
