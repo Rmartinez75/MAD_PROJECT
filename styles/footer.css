@@ -60,10 +60,12 @@
 }
 .footer-category{
     color: black;
-    letter-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
     text-transform: uppercase;
     margin-bottom: 0.75rem;
     text-decoration: underline;
+    font-size: 12px;
+    font: bold;
 }
 .footer-list{
     display: flex;
@@ -73,6 +75,7 @@
 }
 .footer-link{
     text-decoration: none;
+    font-size: 12px;
 }
 .footer-link:visited{
     color: black;
