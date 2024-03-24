@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
-import ScrollToTopButton from '@components/ScrollToTopButton'
+// import ScrollToTopButton from '@components/ScrollToTopButton'
+
 
 import '@styles/globals.css'
 
