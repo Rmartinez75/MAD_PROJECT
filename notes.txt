@@ -1,0 +1,7 @@
+Using .env variables:
+    # declaring variable
+    EXAMPLE_VAR = 'actual information to keep secret'
+
+    # using variable
+    const variable = process.env.EXAMPLE_VAR
+
