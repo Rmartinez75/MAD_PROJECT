@@ -8,6 +8,8 @@
 # testing
 /coverage
 storage.txt
+notes.txt
+server-commands.txt
 
 # next.js
 /.next/
