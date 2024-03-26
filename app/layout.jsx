@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import Script from 'next/script'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 import '@styles/globals.css'
@@ -15,24 +15,13 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <Head>
         <link rel="icon" href='/favicon.ico' />
-
-        <Script strategy='lazyOnload' src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}></Script> 
-
-        <Script id='ga-script' strategy='lazyOnload'> 
-          {`
-            window.dataLayer = window.dataLayer || []; 
-            function gtag(){dataLayer.push(arguments);} 
-            gtag('js', new Date()); 
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'); 
-          `}
-        </Script>
-
       </Head>
       <body>
         <main>
           {children}       
         </main>
       </body>
+      <GoogleAnalytics gaId='G-91W7PDV5W8' />
     </html>
   )
 }
