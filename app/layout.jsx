@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => {
           {children}       
         </main>
       </body>
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+      <GoogleAnalytics gaId="G-91W7PDV5W8" />
     </html>
   )
 }
