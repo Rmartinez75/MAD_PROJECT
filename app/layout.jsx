@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import { GoogleAnalytics } from '@next/third-parties/google'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 import '@styles/globals.css'
@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => {
           {children}       
         </main>
       </body>
-      <GoogleAnalytics gaId='G-91W7PDV5W8' />
+      {/* <GoogleAnalytics gaId='G-PK9ZLSMPXB' /> */}
     </html>
   )
 }

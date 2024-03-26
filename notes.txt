@@ -5,3 +5,14 @@ Using .env variables:
     # using variable
     const variable = process.env.EXAMPLE_VAR
 
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PK9ZLSMPXB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PK9ZLSMPXB');
+</script>
+
