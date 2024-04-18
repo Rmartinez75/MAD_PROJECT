@@ -35,7 +35,9 @@ const page = () => {
                 representing the people and their
                 virtual identity.
             </div>
-            <AP1 />
+            <div className="h-10 w-[500px]">
+              <AP1 />
+            </div>
             <AP2 />
             <AP4 />
           </div>            
