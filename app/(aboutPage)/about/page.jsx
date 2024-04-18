@@ -35,7 +35,7 @@ const page = () => {
                 representing the people and their
                 virtual identity.
             </div>
-            <Image src='/assets/images/about-page-images/AboutPage_3.png' />
+            {/* <Image src='/assets/images/about-page-images/AboutPage_3.png' /> */}
             {/* <div className="h-10 w-[5000px]">
               <AP1 />
             </div>
