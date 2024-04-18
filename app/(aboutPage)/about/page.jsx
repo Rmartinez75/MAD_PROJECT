@@ -1,6 +1,7 @@
 
 import AP1 from "@public/assets/images/about-page-images/ap1"
 import AP2 from "@public/assets/images/about-page-images/ap2"
+import AP4 from "@public/assets/images/about-page-images/ap4"
 import Image from "next/image"
 
 const page = () => {
@@ -34,6 +35,9 @@ const page = () => {
                 representing the people and their
                 virtual identity.
             </div>
+            <AP1 />
+            <AP2 />
+            <AP4 />
           </div>            
         </div>
       </div>
