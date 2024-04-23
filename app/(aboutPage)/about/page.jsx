@@ -8,11 +8,11 @@ const page = () => {
   return (
     <div style={{background: '#FFF3F3'}}> 
       <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className="flex justify-center">
         <div className="w-[400px]">
           <AP1 />
@@ -57,6 +57,11 @@ const page = () => {
         <div className="w-[500px]">
             <p>Sign up for more.</p>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>
