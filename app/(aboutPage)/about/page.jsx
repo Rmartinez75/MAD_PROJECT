@@ -56,18 +56,18 @@ const page = () => {
       <div className="flex justify-center text-center mt-40"> 
         <div className="w-[500px]">
             <p>Sign up for more.</p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </div>
       {/* <div className="lg:hidden flex justify-center pt-40 pb-[164px] ">        
         <div style={{fontSize: 15, width: '23rem', textAlign: 'center'}} >
