@@ -2,7 +2,9 @@
 import AP1 from "@public/assets/images/MAD_Images/AboutPage_1"
 import AP2 from "@public/assets/images/MAD_Images/AboutPage_2"
 import AP4 from "@public/assets/images/MAD_Images/AboutPage_4"
+
 import Image from "next/image"
+import Link from "next/link"
 
 const page = () => {
   return (
@@ -55,7 +57,7 @@ const page = () => {
       </div>
       <div className="flex justify-center text-center mt-40"> 
         <div className="w-[500px]">
-            <p>Sign up for more.</p>
+            <Link href={''}><u>Sign up</u> for more.</Link>
             <br/>
             <br/>
             <br/>
