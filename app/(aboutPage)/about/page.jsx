@@ -7,6 +7,12 @@ import Image from "next/image"
 const page = () => {
   return (
     <div style={{background: '#FFF3F3'}}> 
+      <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <div className="flex justify-center">
         <div className="w-[400px]">
           <AP1 />
@@ -51,6 +57,12 @@ const page = () => {
         <div className="w-[500px]">
             <p>Sign up for more.</p>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
       {/* <div className="lg:hidden flex justify-center pt-40 pb-[164px] ">        
         <div style={{fontSize: 15, width: '23rem', textAlign: 'center'}} >
