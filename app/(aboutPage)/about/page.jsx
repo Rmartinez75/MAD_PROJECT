@@ -6,15 +6,53 @@ import Image from "next/image"
 
 const page = () => {
   return (
-    // <div>
-    //   <AP1 />
-    //   <AP2 />
-    //   <AP4 />
-    // </div>
-
-
-    <div className="flex lg:justify-end justify-center" style={{background: '#FFF3F3'}}>   
-      <div className="lg:hidden flex justify-center pt-40 pb-[164px] ">        
+    <div className="flex lg:justify-end justify-center" style={{background: '#FFF3F3'}}> 
+      <div className="flex justify-center mt-56">
+        <div className="w-[400px]">
+          <AP1 />
+        </div>          
+      </div>    
+      <div className="flex justify-center mt-60"> 
+        <div className="w-96">
+            <p>VR: Virtual Reflection, A <br/>Metaphysical Abstract Design LLC Development Firm-Wear, Representing The People And Their Virtual Identity.</p>
+        </div>
+      </div>
+      <div className="flex justify-center mt-60">
+        <div className="w-[500px]">
+          <AP2 />
+        </div>
+      </div>
+      <div className="flex justify-center mt-60"> 
+        <div className="w-[500px]">
+            <p>Virtual Reflection intergrates textiles and technology. Install sensors and gain a <br/>broader comprehension of your surroundings and intern yourself.</p>
+        </div>
+      </div>
+      <div className="flex justify-center mt-36">
+        <div className="w-[900px]">
+          <Image src='/MAD_Images/About_Page_3.ai.svg' width={900} height={100} />
+        </div>  
+      </div>
+      <div className="flex justify-center mt-20"> 
+        <div className="w-[500px]">
+            <p>Easily install or uninstall VR sensors. Installation manuals available for download</p>
+        </div>
+      </div> 
+      <div className="flex justify-center mt-40">
+        <div className="w-[500px]">
+          <AP4 />
+        </div>
+      </div>
+      <div className="flex justify-center mt-40"> 
+        <div className="w-[500px]">
+            <p>All around you there is information. Collect and analyze with VR Sensors.</p>
+        </div>
+      </div>
+      <div className="flex justify-center text-center mt-40 mb-40"> 
+        <div className="w-[500px]">
+            <p>Sign up for more.</p>
+        </div>
+      </div>
+      {/* <div className="lg:hidden flex justify-center pt-40 pb-[164px] ">        
         <div style={{fontSize: 15, width: '23rem', textAlign: 'center'}} >
           <div className="flex justify-center"><Image src='/assets/images/about-image.png' alt="LOGO" width={100}   
             height={66} />
@@ -35,15 +73,9 @@ const page = () => {
                 representing the people and their
                 virtual identity.
             </div>
-            {/* <Image src='/assets/images/about-page-images/AboutPage_3.png' /> */}
-            {/* <div className="h-10 w-[5000px]">
-              <AP1 />
-            </div>
-            <AP2 />
-            <AP4 /> */}
           </div>            
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
