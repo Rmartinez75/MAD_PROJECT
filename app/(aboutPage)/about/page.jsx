@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const page = () => {
   return (
-    <div className="flex lg:justify-end justify-center" style={{background: '#FFF3F3'}}> 
+    <div style={{background: '#FFF3F3'}}> 
       <div className="flex justify-center mt-56">
         <div className="w-[400px]">
           <AP1 />
@@ -29,7 +29,7 @@ const page = () => {
       </div>
       <div className="flex justify-center mt-36">
         <div className="w-[900px]">
-          <Image src='/MAD_Images/About_Page_3.ai.svg' width={900} height={100} />
+          <Image src='/assets/images/MAD_Images/About_Page_3.ai.svg' width={900} height={100} />
         </div>  
       </div>
       <div className="flex justify-center mt-20"> 
