@@ -7,7 +7,7 @@ import Image from "next/image"
 const page = () => {
   return (
     <div style={{background: '#FFF3F3'}}> 
-      <div className="flex justify-center mt-56">
+      <div className="flex justify-center">
         <div className="w-[400px]">
           <AP1 />
         </div>          
@@ -47,7 +47,7 @@ const page = () => {
             <p>All around you there is information. Collect and analyze with VR Sensors.</p>
         </div>
       </div>
-      <div className="flex justify-center text-center mt-40 mb-40"> 
+      <div className="flex justify-center text-center mt-40"> 
         <div className="w-[500px]">
             <p>Sign up for more.</p>
         </div>
