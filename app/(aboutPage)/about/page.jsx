@@ -1,7 +1,7 @@
 
-import AP1 from "@public/assets/images/MAD_Images/ap1"
-import AP2 from "@public/assets/images/MAD_Images/ap2"
-import AP4 from "@public/assets/images/MAD_Images/ap4"
+import AP1 from "@public/assets/images/MAD_Images/AboutPage_1"
+import AP2 from "@public/assets/images/MAD_Images/AboutPage_2"
+import AP4 from "@public/assets/images/MAD_Images/AboutPage_4"
 import Image from "next/image"
 
 const page = () => {
