@@ -8,7 +8,7 @@ import Link from "next/link"
 
 const page = () => {
   return (
-    <div style={{background: '#FFF3F3'}}> 
+    <div style={{background: '#FFF3F3', fontSize: '12px'}}> 
       <br/>
       <br/>
       <br/>
