@@ -55,7 +55,7 @@ const page = () => {
             <p>All around you there is information. Collect and analyze with VR Sensors.</p>
         </div>
       </div>
-      <div className="flex justify-center text-center mt-40"> 
+      <div className="flex justify-center text-center mt-64"> 
         <div className="w-[500px]">
             <Link href={''}><u>Sign up</u> for more.</Link>
             <br/>
@@ -64,11 +64,11 @@ const page = () => {
             <br/>
             <br/>
             <br/>
+            {/* <br/>
             <br/>
             <br/>
             <br/>
-            <br/>
-            <br/>
+            <br/> */}
         </div>
       </div>
       {/* <div className="lg:hidden flex justify-center pt-40 pb-[164px] ">        
