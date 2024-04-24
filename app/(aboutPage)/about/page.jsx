@@ -32,25 +32,25 @@ const page = () => {
       </div>
       <div className="flex justify-center mt-20"> 
         <div className="w-[500px]">
-            <p>Virtual Reflection intergrates textiles and technology. Install sensors and gain a <br/>broader comprehension of your surroundings and intern yourself.</p>
+            <p>Virtual Reflection intergrates textiles and technology. Install sensors and gain a broader comprehension of your surroundings and intern yourself.</p>
         </div>
       </div>
-      <div className="flex justify-center mt-36">
+      <div className="flex justify-center">
         <div>
           <Image src='/assets/images/MAD_Images/About_Page_3.ai.svg' width={600} height={100} />
         </div>  
       </div>
-      <div className="flex justify-center mt-20"> 
+      <div className="flex justify-center"> 
         <div className="w-[500px]">
             <p>Easily install or uninstall VR sensors. Installation manuals available for download</p>
         </div>
       </div> 
-      <div className="flex justify-center mt-40">
+      <div className="flex justify-center mt-20">
         <div className="w-[500px]">
           <AP4 />
         </div>
       </div>
-      <div className="flex justify-center mt-40"> 
+      <div className="flex justify-center mt-20"> 
         <div className="w-[500px]">
             <p>All around you there is information. Collect and analyze with VR Sensors.</p>
         </div>
