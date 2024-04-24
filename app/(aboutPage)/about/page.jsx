@@ -16,7 +16,7 @@ const page = () => {
       <br/>
       <br/>
       <div className="flex justify-center">
-        <div className="w-[400px]">
+        <div className="w-[200px]">
           <AP1 />
         </div>          
       </div>    
@@ -36,8 +36,8 @@ const page = () => {
         </div>
       </div>
       <div className="flex justify-center mt-36">
-        <div className="w-[900px]">
-          <Image src='/assets/images/MAD_Images/About_Page_3.ai.svg' width={900} height={100} />
+        <div className="w-[600px]">
+          <Image src='/assets/images/MAD_Images/About_Page_3.ai.svg' width={450} height={100} />
         </div>  
       </div>
       <div className="flex justify-center mt-20"> 
