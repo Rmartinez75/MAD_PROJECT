@@ -20,17 +20,17 @@ const page = () => {
           <AP1 />
         </div>          
       </div>    
-      <div className="flex justify-center mt-60"> 
+      <div className="flex justify-center mt-36"> 
         <div className="w-96">
             <p>VR: Virtual Reflection, A <br/>Metaphysical Abstract Design LLC Development Firm-Wear, Representing The People And Their Virtual Identity.</p>
         </div>
       </div>
-      <div className="flex justify-center mt-60">
+      <div className="flex justify-center mt-36">
         <div className="w-[500px]">
           <AP2 />
         </div>
       </div>
-      <div className="flex justify-center mt-60"> 
+      <div className="flex justify-center mt-36"> 
         <div className="w-[500px]">
             <p>Virtual Reflection intergrates textiles and technology. Install sensors and gain a <br/>broader comprehension of your surroundings and intern yourself.</p>
         </div>
