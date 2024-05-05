@@ -10,6 +10,7 @@ import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
 import DropDown from './DropDown';
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 function HeadNav() {
 
