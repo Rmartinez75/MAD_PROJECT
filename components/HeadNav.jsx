@@ -78,7 +78,12 @@ function HeadNav() {
             <Link href='/about' className='hover:text-white transition duration-300 right-side-nav'>About</Link>
             <span className='vertical-divider'>|</span>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
-            <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link> 
+            {/* <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link>  */}
+            <div className='mt-2 text-[13px]'>
+              <LoginLink postLoginRedirectURL='/dashboard'>Login   </LoginLink>
+              <span >    or    </span>
+              <RegisterLink postLoginRedirectURL='/dashboard'>   Register</RegisterLink>
+            </div>
           </div>
         </div>
       </div>        
