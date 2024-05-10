@@ -80,10 +80,10 @@ function HeadNav() {
             <span className='vertical-divider'>|</span>
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
             {/* <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link>  */}
-            <div className='mt-2 text-[13px]'>
-              <LoginLink postLoginRedirectURL='/dashboard'>Login <AiOutlineLogin className='ml-3 mt-1' />   </LoginLink>
+            <div className='mt-2 text-[13px] flex'>
+              <LoginLink postLoginRedirectURL='/dashboard' className='flex'>Login <AiOutlineLogin className='ml-3 mt-1' />   </LoginLink>
               <span >&nbsp; or &nbsp;</span>
-              <RegisterLink postLoginRedirectURL='/dashboard'>   Register<FaRegRegistered className='ml-3 mt-1' /></RegisterLink>
+              <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>   Register<FaRegRegistered className='ml-3 mt-1' /></RegisterLink>
             </div>
           </div>
         </div>
