@@ -3,12 +3,12 @@
 
 import '@styles/head-nav.css'
 import Image from 'next/image'
-import { FaShoppingCart, FaUserCircle } from "react-icons/fa";
+import { FaShoppingCart, FaUserCircle, FaRegRegistered } from "react-icons/fa";
 import React, { useEffect, useState } from 'react'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import { ChevronDownIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
-import { AiOutlineMenu, AiTwotoneUpCircle } from "react-icons/ai";
+import { AiOutlineMenu, AiTwotoneUpCircle, AiOutlineLogout, AiOutlineLogin } from "react-icons/ai";
 import DropDown from './DropDown';
 import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
@@ -81,9 +81,9 @@ function HeadNav() {
             <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
             {/* <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link>  */}
             <div className='mt-2 text-[13px]'>
-              <LoginLink postLoginRedirectURL='/dashboard'>Login   </LoginLink>
-              <span >    or    </span>
-              <RegisterLink postLoginRedirectURL='/dashboard'>   Register</RegisterLink>
+              <LoginLink postLoginRedirectURL='/dashboard'>Login <AiOutlineLogin className='ml-3 mt-1' />   </LoginLink>
+              <span >&nbsp; or &nbsp;</span>
+              <RegisterLink postLoginRedirectURL='/dashboard'>   Register<FaRegRegistered className='ml-3 mt-1' /></RegisterLink>
             </div>
           </div>
         </div>
