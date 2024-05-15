@@ -30,3 +30,10 @@ Using .env variables:
 
 <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-91W7PDV5W8"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-91W7PDV5W8'); </script>
 
+
+http://localhost:3000/api/auth/kinde_callback
+http://localhost:3000
+
+KINDE_SITE_URL=http://www.virtualreflection.online/
+KINDE_POST_LOGOUT_REDIRECT_URL=http://www.virtualreflection.online/
+KINDE_POST_LOGIN_REDIRECT_URL=http://www.virtualreflection.online/dashboard
