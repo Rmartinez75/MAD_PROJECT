@@ -10,7 +10,7 @@ const DashboardPage = async () => {
   return (
     <div style={{background: '#FFF3F3'}}>
       <div className='flex text-center justify-center text-[11px]' >
-        <div className='flex mt-[15%] mb-[11%]'>
+        <div className='flex mt-[15%] mb-[15%]'>
           <span className='mt-[35px]'>IN PROGRESS</span>
           <Image src={'/assets/images/about-image.png'} width={125} height={75} alt='Image' className='ml-8 mr-8'/>
           <span className='mt-[35px]'>COMING SOON... <Link href={'/'}><u>SIGN UP</u></Link> TO GET NOTIFIED</span>
