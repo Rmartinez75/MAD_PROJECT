@@ -1,6 +1,8 @@
 
 import '@styles/background.css'
 
+import Link from 'next/link'
+
 const Background = (props) => (
   <div>
     <div className="hidden lg:flex">
@@ -50768,7 +50770,7 @@ const Background = (props) => (
               transform="scale(1 -1)"
             >
               <tspan style={{ strokeWidth: 0.75 }} x={373} y={-185.52032} className="database">
-                {"[VR: CONCEPT: NFC DATABASE] "}
+                <Link href={'/comingSoon'}>{"[VR: CONCEPT: NFC DATABASE] "}</Link>
               </tspan>
             </text>
           </a>
