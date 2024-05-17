@@ -78,7 +78,7 @@ function HeadNav() {
             </div>
             <Link href='/about' className='hover:text-white transition duration-300 right-side-nav'>About</Link>
             <span className='vertical-divider'>|</span>
-            <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
+            <Link href={'/comingSoon'} className='hover:text-white transition duration-300 right-side-nav flex'>Cart<FaShoppingCart className='ml-3 mt-1' /></Link>
             {/* <Link href={'#'} className='hover:text-white transition duration-300 right-side-nav flex'>Login<FaUserCircle className='ml-3 mt-1' /></Link>  */}
             <div className='mt-2 text-[13px] flex'>
               <LoginLink postLoginRedirectURL='/dashboard' className='flex'>Login <AiOutlineLogin className='ml-3 mt-1' />   </LoginLink>
@@ -123,7 +123,7 @@ function HeadNav() {
         </div>
         <Link href={'/about'} className='block py-4 text-sm hover:text-white transition duration-300'>About</Link>
         <hr className='horizantal-divider'></hr>
-        <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300'>Cart<FaShoppingCart className='mx-auto mt-2' /></Link>
+        <Link href={'/comingSoon'} className='block py-4 text-sm hover:text-white transition duration-300'>Cart<FaShoppingCart className='mx-auto mt-2' /></Link>
         <Link href={'#'} className='block py-4 text-sm hover:text-white transition duration-300'>Login<FaUserCircle className='mx-auto mt-2'/></Link>
         
         <br />
