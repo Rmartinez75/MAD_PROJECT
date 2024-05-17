@@ -2,6 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
+
 function ComingSoon() {
   return (
     <div style={{background: '#FFF3F3'}}>
@@ -9,7 +11,7 @@ function ComingSoon() {
         <div className='flex mt-[15%] mb-[15%]'>
           <span className='mt-[35px]'>IN PROGRESS</span>
           <Image src={'/assets/images/about-image.png'} width={125} height={75} alt='Image' className='ml-8 mr-8'/>
-          <span className='mt-[35px]'>COMING SOON... <Link href={'/'}><u>SIGN UP</u></Link> TO GET NOTIFIED</span>
+          <span className='mt-[35px]'>COMING SOON... <RegisterLink postLoginRedirectURL='/dashboard'><u>SIGN UP</u></RegisterLink> TO GET NOTIFIED</span>
         </div>
       </div>
     </div>

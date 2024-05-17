@@ -13,7 +13,7 @@ const DashboardPage = async () => {
         <div className='flex mt-[15%] mb-[15%]'>
           <span className='mt-[35px]'>IN PROGRESS</span>
           <Image src={'/assets/images/about-image.png'} width={125} height={75} alt='Image' className='ml-8 mr-8'/>
-          <span className='mt-[35px]'>COMING SOON... <Link href={'/'}><u>SIGN UP</u></Link> TO GET NOTIFIED</span>
+          <span className='mt-[35px]'>COMING SOON... </span>
         </div>
       </div>
     </div>

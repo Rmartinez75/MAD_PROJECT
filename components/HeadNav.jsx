@@ -69,7 +69,7 @@ function HeadNav() {
                   <hr />
                   <DropdownMenu.Item className='item flex text-black pt-6 pb-6'>
                     <AiTwotoneUpCircle className='mr-4 mt-1 text-red-500' />
-                    <Link href={'/'}>
+                    <Link href={'/comingSoon'}>
                       Database
                     </Link>
                   </DropdownMenu.Item>
