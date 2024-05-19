@@ -1,6 +1,7 @@
 
 import '@styles/footer.css'
 import Link from 'next/link'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 function Footer() {
   return (
@@ -15,22 +16,22 @@ function Footer() {
                             <p className="footer-category font-extrabold">RESOURCES</p>
                             <nav className="footer-list">                          
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Community Database</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Community Database</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Manuals Download</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Manuals Download</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Shipping and Returns</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Shipping and Returns</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Forum</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Forum</Link>
                             </li>
                             <li className="foot-list">
                                 <Link href="/about" className="footer-link">About</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="/" className="footer-link">Login</Link>
+                                <LoginLink postLoginRedirectURL='/dashboard' className="footer-link">Login</LoginLink>
                             </li>
                             <li className="foot-list">
                                 <Link href="/" className="footer-link">Home</Link>
@@ -47,10 +48,10 @@ function Footer() {
                                 <Link href="https://www.instagram.com/madstudi.o/" className="footer-link" target='_blank'>Instagram</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Events</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Events</Link>
                             </li>
                             <li className="foot-list">
-                                <Link href="" className="footer-link">Press</Link>
+                                <Link href={'/comingSoon'} className="footer-link">Press</Link>
                             </li>
                             </nav>
                         </div>
