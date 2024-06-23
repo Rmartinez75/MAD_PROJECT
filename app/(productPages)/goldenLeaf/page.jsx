@@ -82,7 +82,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Nylon/Felt With Black Cotton Lining, Orange Nylon Webbing Strap 
             </p>
             <br />
             <br />

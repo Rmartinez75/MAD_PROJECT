@@ -27,10 +27,10 @@ function HandWarmerMobileCarousel() {
       </Carousel>
       <br />
       <div style={{fontSize: '12px'}}>
-        <p className='font-bold'>VR: HAND WARMER</p> 
+        <p className='font-bold'>VR: SHEATH WARMER</p> 
         <br />
         <p>       
-        The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+          Whether you're braving the cold or simply seeking a little extra warmth on a chilly day, VR Sheath Warmer is  the perfect accessory for every occasion. Slip them on, feel the comforting embrace of warmth, and step confidently into the world, knowing that wherever you go, comfort and coziness are never far behind. Crafted with versatility in mind, the VR Sheath Warmer is more than just a fashion statement—it’s a practical solution to cold weather keeping your hands warm with a built in heat pad. With this technology being around for so long the main proposal was exploring how to make what already exists better. Exploring sewing techniques as well as embedded Fidlocks adds a unique twist allowing users to strap this sheath on to different parts of the body. 
         </p>
         <br />
         <br />

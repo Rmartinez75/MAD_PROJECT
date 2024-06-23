@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import Image from 'next/image'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -73,7 +74,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm. 
+              Whether you're braving the cold or simply seeking a little extra warmth on a chilly day, VR Sheath Warmer is  the perfect accessory for every occasion. Slip them on, feel the comforting embrace of warmth, and step confidently into the world, knowing that wherever you go, comfort and coziness are never far behind. Crafted with versatility in mind, the VR Sheath Warmer is more than just a fashion statement—it’s a practical solution to cold weather keeping your hands warm with a built in heat pad. With this technology being around for so long the main proposal was exploring how to make what already exists better. Exploring sewing techniques as well as embedded Fidlocks adds a unique twist allowing users to strap this sheath on to different parts of the body.  
             </p>
             <br />
             <br />
@@ -83,7 +84,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Olive Green Faux Suede, Black Nylon, Neoprene 
             </p>
             <br />
             <br />
@@ -93,12 +94,20 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              USB Powered Nickel Chromium Coil Heat pad 
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

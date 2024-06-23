@@ -27,7 +27,7 @@ function HandWarmerComp() {
         <div className='box-content h-auto w-1/4 ml-[5%]'>
           <div style={{fontSize: '12px'}}>
             <p className='font-bold'>VR: SHEATH WARMER</p> <br />
-            A wearable device. Originally designed as a sheath The VR hand warmers keeps your limbs warm. 
+              Whether you're braving the cold or simply seeking a little extra warmth on a chilly day, VR Sheath Warmer is  the perfect accessory for every occasion. Slip them on, feel the comforting embrace of warmth, and step confidently into the world, knowing that wherever you go, comfort and coziness are never far behind. Crafted with versatility in mind, the VR Sheath Warmer is more than just a fashion statement—it’s a practical solution to cold weather keeping your hands warm with a built in heat pad. With this technology being around for so long the main proposal was exploring how to make what already exists better. Exploring sewing techniques as well as embedded Fidlocks adds a unique twist allowing users to strap this sheath on to different parts of the body.  
           <br />
           <br />
           <Counter />
