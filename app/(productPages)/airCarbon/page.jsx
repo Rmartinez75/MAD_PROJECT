@@ -101,8 +101,8 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ESP32<BR/>
-              SCD40<BR/>
+              ESP32<br/>
+              SCD40<br/>
               Adafruit GPS Mini
             </p>
             <br />
