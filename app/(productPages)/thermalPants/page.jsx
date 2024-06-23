@@ -85,7 +85,7 @@ function page() {
               SPECIFICATIONS:
             </p>
             <br />
-            <ul>
+            <ul style={{fontSize: '12px'}}>
               <li>
                 Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
               </li>
