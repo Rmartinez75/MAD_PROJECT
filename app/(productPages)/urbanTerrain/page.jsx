@@ -125,7 +125,7 @@ function page() {
             <br />
             <br />
             <div className='flex' style={{fontSize: '12px'}}>
-              <p style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
                 SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
                 <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
                     GET NOTIFIED:
