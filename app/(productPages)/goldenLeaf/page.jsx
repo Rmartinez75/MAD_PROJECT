@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -71,7 +72,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              The VR golden leaf is a conceptual piece designed for gorilla warfare. This vest has the capacity to house plates inside and allows users to wear loosely for mobility or fitted depending on the situation. Fidlocks are used for easy strap and off mechanics.
+              Experience the perfect balance of freedom and security with the VR Golden Leaf. Designed to accommodate plates for enhanced protection, this vest offers unparalleled versatility, allowing users to wear it loosely for maximum mobility or fitted for optimal defense, depending on the situation. With the ability to adapt on the fly, warriors can move with confidence, knowing they're prepared for whatever comes their way. VR Golden Leaf features Fidlock technology for easy strap-on and off mechanics. With a simple flick of the wrist, users can secure their vest in place or remove it in a matter of seconds, ensuring swift transitions and uninterrupted focus on the mission at hand. This concept was one of the first attempts to design a product that balances the stiffness of a “technology” and the loosenest of fabric, layout and placement being key in the process. Additionally understanding how technology can be present without the need for electricity for power but purely through the adaptability of the product. 
             </p>
             <br />
             <br />
@@ -91,12 +92,20 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              N/A
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div> 
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

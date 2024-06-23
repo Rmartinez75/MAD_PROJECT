@@ -3,7 +3,6 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
-import { FaShoppingCart, FaUserCircle, FaRegRegistered } from "react-icons/fa";
 import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
@@ -114,12 +113,10 @@ function page() {
             <p style={{fontSize: '12px'}}>
               TECHNOLOGY 
             </p>
-            <p style={{fontSize: '12px'}}>
-              N/A
-            </p>
+            <br/>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              N/A 
             </p>
             <br />
             <br />
@@ -131,11 +128,8 @@ function page() {
                     GET NOTIFIED:
                 </RegisterLink>
                 &#160;&nbsp; EMAIL HERE
-              </p>
-              
-            </div>
-            
-            
+              </p>              
+            </div>        
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
