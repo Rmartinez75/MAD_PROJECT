@@ -124,7 +124,11 @@ function page() {
             <br />
             <br />
             <br />
-            {/* <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>GET NOTIFIED<FaRegRegistered className='ml-3 mt-1' /></RegisterLink>:&#160;&nbsp; EMAIL HERE</p> */}
+            <div className='flex' style={{fontSize: '12px'}}>
+              <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>GET NOTIFIED:<FaRegRegistered className='ml-3 mt-1' />
+              </RegisterLink>
+            </div>
+            {/* <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p> */}
             
             <br />
             <br />
