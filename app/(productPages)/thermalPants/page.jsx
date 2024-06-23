@@ -86,7 +86,7 @@ function page() {
             </p>
             <br />
             <ul style={{fontSize: '12px'}}>
-              <li style={{textIndent: '2px'}}>
+              <li style={{textIndent: '25px'}}>
                 &bull;Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
               </li>
               <li>
