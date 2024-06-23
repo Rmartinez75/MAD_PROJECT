@@ -26,8 +26,8 @@ function BubbleBrownComp() {
         </div>
         <div className='box-content h-auto w-1/4 ml-[5%]'>
           <div style={{fontSize: '12px'}}>
-            <p className='font-bold'>VR AIR: BUBBLE BROWN</p> <br />
-            A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The front pouch pocket houses the power supply and can be used for additional storage. 
+            <p className='font-bold'>VR: AIR EXPLORER</p> <br />
+             Explore where no one else has, like no one else has with the VR Air Explorer. Users are able to enjoy comfort alongside ample storage space. The Explorer features a unique blend of nylon and suede. This device was designed for specialty sensors that may be bigger in size or require a bigger storage as well as external access making installation a lot easier. Install and begin your journey.  
           <br />
           <br />
           <Counter />

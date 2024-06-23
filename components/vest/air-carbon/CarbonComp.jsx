@@ -27,7 +27,7 @@ function CarbonComp() {
         <div className='box-content h-auto w-1/4 ml-[5%]'>
           <div style={{fontSize: '12px'}}>
             <p className='font-bold'>VR AIR: CARBON</p> <br />
-            This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Carbon vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The unique patina like texture on the heavy cotton explores textile materially interpretation.
+             The VR Air Carbon explores materiality in a whole new way. The effects of carbon on the environment is becoming more and more prevalent with each day. Environmental awareness is woven into the fabric- the patina-like texture Is more symbolic than it is functional representing the oxidation of carbon steel, a reminder that time is running out. Armed with real-time data and insights, you have the power to make informed decisions that benefit both yourself and the planet. From reducing indoor pollutants to advocating for cleaner air initiatives, every action you take makes a difference and you are reminded of this with each step.
           <br />
           <br />
           <Counter />

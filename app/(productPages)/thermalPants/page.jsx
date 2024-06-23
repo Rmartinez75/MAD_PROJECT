@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import Image from 'next/image'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -75,17 +76,42 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              An environmental awareness device. The VR thermal is a prototype pant, the first of its kind, designed for mobility, comfort and efficiency. This device houses an environmental temperature reader with Bluetooth capabilities. With the VR prototype pants you can read environmental temperature information via your phones or from viewing the indicated color from the embedded led fitted into the pants which allows users to travel long distances and have an understanding of shifting temperatures without necessarily having to use a phone or any other device but their eyes. See specifications for additional information.
+              Whether you're trekking through the wilderness or navigating the urban jungle, the VR Prototype Pants are your ultimate companion for long-distance travel. With the ability to monitor shifting environmental temperatures on the go, you can adapt and adjust your journey with ease, ensuring a seamless and comfortable experience from start to finish. Environmental temperature information is right at your fingertips. Seamlessly integrated LED lights embedded into the fabric provide real-time temperature readings, allowing you to stay informed and connected no matter where your adventures take you. Simply glance down and let the subtle colors guide you, eliminating the need for additional devices or distractions. Whether you're a seasoned explorer or simply seeking new experiences, these pants empower you to connect with your environment, adapt to changing conditions, and embrace the journey with confidence and style. So go ahead, step into a new terrain, and let your adventures begin.
             </p>
             <br />
             <br />
+            <br />
+            <p>
+              SPECIFICATIONS:
+            </p>
+            <br />
+            <ul>
+              <li>
+                Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
+              </li>
+              <li>
+                Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
+              </li>
+              <li>
+                Premium Materials: Crafted from high-quality fabrics for durability, comfort, and style.
+              </li>
+              <li>
+                Lightweight and Breathable: Designed for long-distance travel, these pants offer comfort and breathability.
+              </li>
+              <li>
+                Adjustable Fit: Elastic waistband and adjustable snap studs ensure a perfect fit for all body types.
+              </li>
+              <li>
+                Easy Care: Machine washable for convenient maintenance and long-lasting wear.
+              </li>
+            </ul>
             <br />
             <p style={{fontSize: '12px'}}>
               TEXTILE
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+             Synthetic Neoprene, Nylon
             </p>
             <br />
             <br />
@@ -95,7 +121,10 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              Arduino nano 33 IoT<br/>
+              MPL3115A2 - Barometric Pressure/Altitude/Temperature Sensor<br/>
+              RGB LED<br/>
+              Rechargeable battery power  
             </p>
             <br />
             <br />

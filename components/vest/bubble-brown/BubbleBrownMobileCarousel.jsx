@@ -23,10 +23,10 @@ function BubbleBlackMobileCarousel() {
       </Carousel>
       <br />
       <div style={{fontSize: '12px'}}>
-        <p className='font-bold'>VR: AIR BUBBLE BLACK</p> 
+        <p className='font-bold'>VR: AIR EXPLORER</p> 
         <br />
         <p>       
-        The Virtual Reflection Air Vest is a wearable technology device designed by Metaphysical Abstract Design. This device was originally designed to house VR technologies. It can easily accommodate other wearable technologies with its access pockets and wire conduits, allowing users to use this vest as a prototype for their own ideas. The VR Air Vest comes equipt with an environmental carbon sensor enabling users to access both indoor and outdoor carbon levels. When you put on a VR Air Vest your data counts. You gain access to a community of data by users just like you around the world.
+          Explore where no one else has, like no one else has with the VR Air Explorer. Users are able to enjoy comfort alongside ample storage space. The Explorer features a unique blend of nylon and suede. This device was designed for specialty sensors that may be bigger in size or require a bigger storage as well as external access making installation a lot easier. Install and begin your journey. 
         </p>
         <br />
         <br />

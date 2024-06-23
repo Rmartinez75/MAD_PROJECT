@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -80,7 +81,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Carbon vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The unique patina like texture on the heavy cotton explores textile materially interpretation.
+             The VR Air Carbon explores materiality in a whole new way. The effects of carbon on the environment is becoming more and more prevalent with each day. Environmental awareness is woven into the fabric- the patina-like texture Is more symbolic than it is functional representing the oxidation of carbon steel, a reminder that time is running out. Armed with real-time data and insights, you have the power to make informed decisions that benefit both yourself and the planet. From reducing indoor pollutants to advocating for cleaner air initiatives, every action you take makes a difference and you are reminded of this with each step.
             </p>
             <br />
             <br />
@@ -90,7 +91,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+             Synthetic Neoprene, Cotton Canvas   
             </p>
             <br />
             <br />
@@ -100,12 +101,22 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              ESP32<BR/>
+              SCD40<BR/>
+              Adafruit GPS Mini
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

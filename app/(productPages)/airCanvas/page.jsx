@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -84,7 +85,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The Air Canvas is a versatile heavy duty vest. As with most VR products this vest is designed to be worn with or without compatible wearable tech. This canvas cotton bubble vest explores the feasibility of heavy duty cotton and its ability to age at a congruent rate with its integrated parts.
+              Imagine, a returning astronaut coming home to a new world. The VR Air Canvas encompasses an astronaut styled off white canvas puffer with direct openings for sensor placement. Equipped with an environmental carbon sensor, VR Air Canvas offers a glimpse into the world around us. Accurate readings of indoor and outdoor environments provide invaluable insights, allowing you to navigate and connect with your surroundings like never before. Designed to adapt to individual preferences, it can be worn with or without compatible sensors, showcasing the exploration of heavy-duty cotton and its harmonious aging abilities alongside its integrated parts
             </p>
             <br />
             <br />
@@ -94,7 +95,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+             Synthetic Neoprene, Cotton Canvas 
             </p>
             <br />
             <br />
@@ -104,7 +105,9 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              ESP32<br/>
+              SCD40<br/>
+              Adafruit GPS Mini 
             </p>
             <br />
             <br />

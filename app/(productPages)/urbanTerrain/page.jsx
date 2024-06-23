@@ -113,7 +113,6 @@ function page() {
             <p style={{fontSize: '12px'}}>
               TECHNOLOGY 
             </p>
-            <br/>
             <br />
             <p style={{fontSize: '12px'}}>
               N/A 

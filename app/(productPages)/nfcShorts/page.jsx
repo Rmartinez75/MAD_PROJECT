@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import Image from 'next/image'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -73,7 +74,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              The VR NFC shorts come with programmable NFC chips installed. Originally designed to assist individuals with memorizing daily tasks but not limited to just that. This programmable chip allows users to program themselves as needed in whatever way users find it convenient. Made entirely of synthetic neoprene these shorts are very comfortable on the skin and absorb sweat and moisture making it a great activewear. 
+              Say goodbye to forgetfulness and hello to efficiency with the VR NFC Shorts. Equipped with programmable NFC chips, these shorts put the power of customization in your hands. Originally designed to assist with memorizing daily tasks, the possibilities are endless. Whether it's setting reminders, accessing important information, or simplifying everyday tasks, the programmable NFC chip allows you to tailor your experience to suit your unique needs and preferences. Due to the comfort and breathability of the neoprene on skin these shorts can be worn in many conditions. 
             </p>
             <br />
             <br />
@@ -83,7 +84,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Synthetic Neoprene, Synthetic Leather, Neoprene  
             </p>
             <br />
             <br />
@@ -93,12 +94,20 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              Flexible Textile NFC Tags NTAG212 30x30 mm
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

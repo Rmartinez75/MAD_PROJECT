@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -65,7 +66,7 @@ function page() {
         <div className='w-auto ml-5 mr-10'>
           <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar">
             <p className="font-bold" style={{fontSize: '14px'}}>
-              VR AIR: BUBBLE BROWN
+              VR AIR: AIR EXPLORER
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
@@ -73,7 +74,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The front pouch pocket houses the power supply and can be used for additional storage. 
+              Explore where no one else has, like no one else has with the VR Air Explorer. Users are able to enjoy comfort alongside ample storage space. The Explorer features a unique blend of nylon and suede. This device was designed for specialty sensors that may be bigger in size or require a bigger storage as well as external access making installation a lot easier. Install and begin your journey.  
             </p>
             <br />
             <br />
@@ -83,7 +84,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Synthetic Neoprene, Nylon, flux suede 
             </p>
             <br />
             <br />
@@ -93,12 +94,20 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              Varies
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

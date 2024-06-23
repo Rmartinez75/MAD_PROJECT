@@ -3,6 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -74,7 +75,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              This device was original designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings.
+              The VR Air Bubble Black was originally conceived as a housing for VR technologies. This versatile device goes beyond its initial purpose, offering users the freedom to experiment and innovate. Equipped with access pockets and wire conduits, it provides the perfect platform for testing out your own ideas and creations, whether it's integrating additional wearable technologies or developing groundbreaking new applications. Whether you're a developer or a curious enthusiast, this device offers endless opportunities for exploration and experimentation. From creating immersive experiences with sensors to monitoring environmental data.This is the first of the series of bubble vest designs and was originally to house and unhouse VR technologies. With no additional pockets and a low profile fit this is designed to be an addition to an attire.   
             </p>
             <br />
             <br />
@@ -84,7 +85,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Black Nylon, Gray Synthetic Neoprene Inner
             </p>
             <br />
             <br />
@@ -94,12 +95,20 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              ARDUINO BLE<br />MCU 6050<br />RGB LED<br />ETC... 
+              Varies
             </p>
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
