@@ -3,7 +3,7 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
-import Link from 'next/link'
+import { FaShoppingCart, FaUserCircle, FaRegRegistered } from "react-icons/fa";
 import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
