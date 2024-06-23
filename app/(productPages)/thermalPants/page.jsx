@@ -87,7 +87,7 @@ function page() {
             <br />
             <ul style={{fontSize: '12px'}}>
               <li>
-                Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
+              &bull;Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
               </li>
               <li>
                 Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
