@@ -3,6 +3,8 @@
 
 import Carousel from '@components/Carousel'
 import VestSchematics from '@components/VestSchematics'
+import Link from 'next/link'
+import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 
 import '@styles/pages.css'
 
@@ -94,7 +96,7 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              A wearable device. This device was originally designed to house VR technologies and can accommodate other wearable technologies, with its access pockets and wire conduits, allowing users with the possibility of testing out their own ideas. The VR Air Vest comes equipped with an environmental carbon sensor allowing users to get accurate indoor and outdoor readings. The front pouch pocket houses the power supply and can be used for additional storage. 
+              VR Terrain 1S, a visionary concept design that blurs the lines between textiles  and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries of textile design and wearable innovation, challenging the way technology should integrate with textiles being that both have their own constraints. This concept exemplifies the resolution of technology and how it can be conceived, like should the wires be visible and how can its visibility inform the textile?   
             </p>
             <br />
             <br />
@@ -104,13 +106,16 @@ function page() {
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
-              Compact stretch nylon for warmth and comfort with a water resistant finish
+              Canvas, Paint, Black Cotton Canvas Inner
             </p>
             <br />
             <br />
             <br />
             <p style={{fontSize: '12px'}}>
               TECHNOLOGY 
+            </p>
+            <p style={{fontSize: '12px'}}>
+              N/A
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
@@ -119,7 +124,8 @@ function page() {
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>GET NOTIFIED<FaRegRegistered className='ml-3 mt-1' /></RegisterLink>:&#160;&nbsp; EMAIL HERE</p>
+            
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>

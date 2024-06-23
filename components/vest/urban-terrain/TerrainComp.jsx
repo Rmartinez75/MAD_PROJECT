@@ -25,7 +25,7 @@ function TerrainComp() {
         <div className='box-content h-auto w-1/4 ml-[5%]'>
           <div style={{fontSize: '12px'}}>
             <p className='font-bold'>VR TERRAIN: 1S</p> <br />
-            A concept design. Inspired by the terrain of the city and the circuits on a PCB board. The VR Terrain (concept) explorers textile layering and how this technique can be used to transform a 2D textile into a 3D wearable technology that conforms to the body. 
+              VR Terrain 1S, a visionary concept design that blurs the lines between textiles  and cutting-edge technology. Inspired by the terrain of the city streets and the intricate circuits of a PCB board, this concept redefines the boundaries of textile design and wearable innovation, challenging the way technology should integrate with textiles being that both have their own constraints. This concept exemplifies the resolution of technology and how it can be conceived, like should the wires be visible and how can its visibility inform the textile?  
           <br />
           <br />
           <Counter />
