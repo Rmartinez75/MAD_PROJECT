@@ -86,8 +86,11 @@ function page() {
             </p>
             <br />
             <ul style={{fontSize: '12px'}}>
-              <li style={{textIndent: '25px'}}>
-                &bull;Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
+              <li>
+                &bull;
+                <p style={{textIndent: '25px'}}>
+                  Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
+                </p>
               </li>
               <li>
                 &bull;Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
