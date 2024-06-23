@@ -87,22 +87,22 @@ function page() {
             <br />
             <ul style={{fontSize: '12px'}}>
               <li>
-              &bull;Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
+                &bull;Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
               </li>
               <li>
-                Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
+                &bull;Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
               </li>
               <li>
-                Premium Materials: Crafted from high-quality fabrics for durability, comfort, and style.
+                &bull;Premium Materials: Crafted from high-quality fabrics for durability, comfort, and style.
               </li>
               <li>
-                Lightweight and Breathable: Designed for long-distance travel, these pants offer comfort and breathability.
+                &bull;Lightweight and Breathable: Designed for long-distance travel, these pants offer comfort and breathability.
               </li>
               <li>
-                Adjustable Fit: Elastic waistband and adjustable snap studs ensure a perfect fit for all body types.
+                &bull;Adjustable Fit: Elastic waistband and adjustable snap studs ensure a perfect fit for all body types.
               </li>
               <li>
-                Easy Care: Machine washable for convenient maintenance and long-lasting wear.
+                &bull;Easy Care: Machine washable for convenient maintenance and long-lasting wear.
               </li>
             </ul>
             <br />
