@@ -112,7 +112,15 @@ function page() {
             <br />
             <br />
             <br />
-            <p style={{fontSize: '12px'}}>SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; GET NOTIFIED:&#160;&nbsp; EMAIL HERE</p>
+            <div className='flex' style={{fontSize: '12px'}}>
+              <p className='flex' style={{fontSize: '12px'}}>
+                SIZE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; TYPE:&nbsp; &#160;&nbsp; &#160;&nbsp; &#160; 
+                <RegisterLink postLoginRedirectURL='/dashboard' className='flex'>
+                    GET NOTIFIED:
+                </RegisterLink>
+                &#160;&nbsp; EMAIL HERE
+              </p>              
+            </div>
             <br />
             <br />
             <p style={{fontSize: '12px'}}>DOWNLOAD OPTIONS: FOR OPEN SOURCE ADD EMAIL FOR DOWNLOAD</p>
