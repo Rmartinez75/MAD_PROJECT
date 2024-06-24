@@ -124,6 +124,8 @@ function page() {
               </li>
             </ul>
             <br />
+            <br />
+            <br />
             <p style={{fontSize: '12px'}}>
               TEXTILE
             </p>
