@@ -50618,7 +50618,7 @@ const Background = (props) => (
               transform="scale(1 -1)"
             >
               <tspan style={{ strokeWidth: 0.75 }} x={390} y={-500} className="vest">
-                {"[VR AIR: BUBBLE BROWN] "}
+                {"[VR: AIR EXPLORER] "}
               </tspan>
             </text>
           </a>

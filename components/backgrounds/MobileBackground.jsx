@@ -45638,7 +45638,7 @@ const MobileBackground = (props) => (
             x={1060}
             y={-2135}
           >
-            {"[VR AIR: BUBBLE BROWN]" }
+            {"[VR: AIR EXPLORER]" }
           </tspan>
         </text>
       </a>
