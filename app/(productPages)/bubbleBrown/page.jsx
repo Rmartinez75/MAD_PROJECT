@@ -66,7 +66,7 @@ function page() {
         <div className='w-auto ml-5 mr-10'>
           <div className="mt-8 overflow-scroll h-[1050px] no-scrollbar">
             <p className="font-bold" style={{fontSize: '14px'}}>
-              VR AIR: AIR EXPLORER
+              VR: AIR EXPLORER
             </p>
             <br />
             <p style={{fontSize: '12px'}}>
