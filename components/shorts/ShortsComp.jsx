@@ -13,12 +13,12 @@ function ShortsComp() {
         <div className='block'>
           <div className='flex'>       
             <div className='p-0.5 rounded-xl'>
-              <Link href={''}>
+              <Link href={'nfcShorts'}>
                 <Image src='/assets/images/VR_NFC_SHORTS/VR_NFC_SHORTS_02.jpeg' alt='VEST-1' width={400} height={250} />
               </Link>
             </div>
             <div className='p-0.5 rounded-xl'>
-              <Link href={''}>
+              <Link href={'nfcShorts'}>
                 <Image src='/assets/images/VR_NFC_SHORTS/VR_NFC_SHORTS_01.jpeg' alt='VEST-2' width={400} height={250} />
               </Link>
             </div>
