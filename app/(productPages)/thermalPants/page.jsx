@@ -92,20 +92,35 @@ function page() {
                   Integrated LED Lights: Embedded LED lights discreetly fitted into the pants provide real-time temperature readings.
                 </p>
               </li>
-              <li>
-                &bull;Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
+              <li className='flex'>
+                &bull;
+                <p style={{marginLeft: '5px'}}>
+                  Smartphone Compatibility: Sync with your smartphone for additional temperature data and customization options.
+                </p>
               </li>
-              <li>
-                &bull;Premium Materials: Crafted from high-quality fabrics for durability, comfort, and style.
+              <li className='flex'>
+                &bull;
+                <p style={{marginLeft: '5px'}}>
+                  Premium Materials: Crafted from high-quality fabrics for durability, comfort, and style.
+                </p>
               </li>
-              <li>
-                &bull;Lightweight and Breathable: Designed for long-distance travel, these pants offer comfort and breathability.
+              <li className='flex'>
+                &bull;
+                <p style={{marginLeft: '5px'}}>
+                  Lightweight and Breathable: Designed for long-distance travel, these pants offer comfort and breathability.
+                </p>
               </li>
-              <li>
-                &bull;Adjustable Fit: Elastic waistband and adjustable snap studs ensure a perfect fit for all body types.
+              <li className='flex'>
+                &bull;
+                <p style={{marginLeft: '5px'}}>
+                  Adjustable Fit: Elastic waistband and adjustable snap studs ensure a perfect fit for all body types.
+                </p>
               </li>
-              <li>
-                &bull;Easy Care: Machine washable for convenient maintenance and long-lasting wear.
+              <li className='flex'>
+                &bull;
+                <p style={{marginLeft: '5px'}}>
+                  Easy Care: Machine washable for convenient maintenance and long-lasting wear.
+                </p>
               </li>
             </ul>
             <br />
