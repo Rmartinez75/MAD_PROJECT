@@ -81,7 +81,7 @@ function page() {
             </div>
           </div>
           <div className="mt-5 w-auto">
-            <VestSchematics />
+            {/* <VestSchematics /> */}
           </div>
         </div>
         <div className='w-auto ml-5 mr-10'>

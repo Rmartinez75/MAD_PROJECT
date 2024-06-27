@@ -27,6 +27,7 @@ const MainPage = () => {
       <VestComp />
       <SectionDivider />
       <BubbleBrownComp />
+      <BubbleBlackComp />
       <SectionDivider />
       <CarbonComp />
       <SectionDivider />
@@ -38,7 +39,6 @@ const MainPage = () => {
       <SectionDivider />
       <GoldenLeafComp />
       <SectionDivider />
-      <BubbleBlackComp />
       <SectionDivider />
       <TerrainComp />      
       <ScrollToTopButton /> 
