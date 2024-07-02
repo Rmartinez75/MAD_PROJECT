@@ -8,10 +8,10 @@ import Image from "next/image"
 
 
 const slides = [
-    '/assets/images/VR_AIR_BUBBLE_BLACK/square1.png',
-    '/assets/images/VR_AIR_BUBBLE_BLACK/square2.png',
-    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square3.png',
-    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square4.png',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/square1.webp',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/square2.webp',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square3.webp',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square4.webp',
   ]
 
 function BubbleBlackMobileCarousel() {

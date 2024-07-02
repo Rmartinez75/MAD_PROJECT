@@ -18,7 +18,7 @@ function BubbleBlackComp() {
         </div>       
         <div className='p-0.5'>
           <Link href={'/bubbleBlack'}>
-            <img src='/assets/images/VR_AIR_BUBBLE_BLACK/square2.png' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_BUBBLE_BLACK/square2.webp' alt='VEST-2' className='w-[400px]' />
           </Link>
         </div>
         <div className='p-0.5 w-[404px]'>            

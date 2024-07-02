@@ -4,8 +4,8 @@
 import Carousel from "../../Carousel"
 
 const slides = [
-    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square3.png',
-    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square4.png',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square3.webp',
+    '/assets/images/VR_AIR_BUBBLE_BLACK/slide-show/square4.webp',
   ]
 
 function BubbleBlackCarousel() {
