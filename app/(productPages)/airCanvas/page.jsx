@@ -28,7 +28,7 @@ const smallTopSlides = [
 
 const smallBottomSlides = [
   '/assets/images/VR_AIR_CANVAS/IMAGE4/VR_AIR_CANVAS_06.webp',
-  '/assets/images/VR_AIR_CANVAS/IMAGE3/square.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE4/square.webp',
   ]
 
 function page() {
