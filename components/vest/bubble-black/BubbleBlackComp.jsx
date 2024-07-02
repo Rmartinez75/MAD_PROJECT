@@ -13,7 +13,7 @@ function BubbleBlackComp() {
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
           <Link href={'/bubbleBlack'}>
-            <img src='/assets/images/VR_AIR_BUBBLE_BLACK/square1.png' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_BUBBLE_BLACK/square1.webp' alt='VEST-1' className='w-[400px]' />
           </Link>
         </div>       
         <div className='p-0.5'>
