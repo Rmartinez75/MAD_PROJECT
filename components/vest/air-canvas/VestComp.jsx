@@ -14,12 +14,12 @@ function VestComp() {
           <div className="flex">
             <div className='p-0.5'>
               <Link href={'/airCanvas'}>
-                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.jpeg' alt='VEST-1' className='w-[400px]' />
+                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_07.webp' alt='VEST-1' className='w-[400px]' />
               </Link>
             </div>       
             <div className='p-0.5'>
               <Link href={'/airCanvas'}>
-                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.jpeg' alt='VEST-2' className='w-[400px]' />
+                <img src='/assets/images/VR_AIR_CANVAS/VR_AIR_CANVAS_06.webp' alt='VEST-2' className='w-[400px]' />
               </Link>
             </div>
             <div className='p-0.5 w-[404px]'>

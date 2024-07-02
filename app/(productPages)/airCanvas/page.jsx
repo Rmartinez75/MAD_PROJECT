@@ -8,25 +8,27 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE1/1.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE1/2.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE1/3.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE1/4.png',
+  '/assets/images/VR_AIR_CANVAS/IMAGE1/1.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE1/2.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE1/3.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE1/4.webp',
 ]
 
 const largeImageSlides2 = [
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/1.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/2.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/3.png',
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE2/4.png',
+  '/assets/images/VR_AIR_CANVAS/IMAGE2/1.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE2/2.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE2/3.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE2/4.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE3/1.jpeg',
+  '/assets/images/VR_AIR_CANVAS/IMAGE3/VR_AIR_CANVAS_07.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE3/square2.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_AIR_CANVAS/VR-AIR-CANVAS/IMAGE4/2.jpeg',
+  '/assets/images/VR_AIR_CANVAS/IMAGE4/VR_AIR_CANVAS_06.webp',
+  '/assets/images/VR_AIR_CANVAS/IMAGE3/square.webp',
   ]
 
 function page() {
