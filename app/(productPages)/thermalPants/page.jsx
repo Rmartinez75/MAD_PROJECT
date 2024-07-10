@@ -8,21 +8,21 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/1.png',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/4.png',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/8.png',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/1.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/4.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE1/8.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/1.png',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/2.png',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/3.jpeg',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/4.jpeg',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/1.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/2.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/3.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE2/4.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE3/1.jpeg',
-  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE3/2.jpg',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE3/1.webp',
+  '/assets/images/VR_THERMAL_PANTS/VR-THERMAL-PANTS/IMAGE3/2.webp',
   ]
 
 function page() {

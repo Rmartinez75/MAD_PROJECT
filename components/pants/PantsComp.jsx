@@ -13,12 +13,12 @@ function PantsComp() {
           <div className='flex'>          
             <div className='p-0.5 rounded-xl'>
               <Link href={'/thermalPants'}>
-                <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_01.jpeg' alt='PANTS-1' width={400} height={250} />
+                <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_01.webp' alt='PANTS-1' width={400} height={250} />
               </Link>
             </div>
             <div className='p-0.5 rounded-xl'>
               <Link href={'/thermalPants'}>
-                <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_02_NEW.jpeg' alt='PANTS-2' width={400} height={250} />
+                <Image src='/assets/images/VR_THERMAL_PANTS/VR_THERMAL_PANTS_02_NEW.webp' alt='PANTS-2' width={400} height={250} />
               </Link>
             </div>
             <div className='p-0.5 rounded-xl w-[404px]'>
