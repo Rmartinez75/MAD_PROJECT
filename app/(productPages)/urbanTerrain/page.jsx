@@ -8,35 +8,35 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/1.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/2.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/3.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/4.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/5.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/6.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/7.png',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/1.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/2.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/3.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/4.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/5.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/6.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE1/7.webp',
 ]
 
 const largeImageSlides2 = [
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/1.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/2.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/3.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/4.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/5.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/6.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/7.png',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/1.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/2.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/3.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/4.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/5.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/6.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE2/7.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square1.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square2.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square3.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square4.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square1.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square2.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square3.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE3/square4.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square4.png',
-  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square5.jpeg',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square4.webp',
+  '/assets/images/VR_URBAN_TERRAIN/VR-URBAN-TERRAIN/IMAGE4/square5.webp',
   ]
 
 function page() {
