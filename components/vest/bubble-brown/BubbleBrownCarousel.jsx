@@ -5,9 +5,9 @@ import Carousel from "../../Carousel"
 
 
 const slides = [
-    '/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE2/3.png',
-    '/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE3/VR_AIR_BUBBLE_BROWN_01.jpeg',
-    '/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE3/VR_AIR_BUBBLE_BROWN_02.jpeg',
+    '/assets/images/VR_AIR_BUBBLE_BROWN/VR-AIR-BUBBLE-BROWN/IMAGE2/3.webp',
+    '/assets/images/VR_AIR_BUBBLE_BROWN/VR-AIR-BUBBLE-BROWN/IMAGE3/1.webp',
+    '/assets/images/VR_AIR_BUBBLE_BROWN/VR-AIR-BUBBLE-BROWN/IMAGE3/2.webp',
   ]
 
 function BubbleBlackCarousel() {

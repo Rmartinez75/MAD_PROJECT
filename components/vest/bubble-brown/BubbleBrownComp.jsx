@@ -13,12 +13,12 @@ function BubbleBrownComp() {
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
           <Link href={'/bubbleBrown'}>
-            <img src='/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE3/VR_AIR_BUBBLE_BROWN_01.jpeg' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_BUBBLE_BROWN/VR-AIR-BUBBLE-BROWN/IMAGE3/1.webp' alt='VEST-1' className='w-[400px]' />
           </Link>
         </div>       
         <div className='p-0.5'>
           <Link href={'/bubbleBrown'}>
-            <img src='/assets/images/VR_AIR_BUBBLE_BROWN/IMAGE3/VR_AIR_BUBBLE_BROWN_02.jpeg' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_AIR_BUBBLE_BROWN/VR-AIR-BUBBLE-BROWN/IMAGE3/2.webp' alt='VEST-2' className='w-[400px]' />
           </Link>
         </div>
         <div className='p-0.5 w-[404px]'>            
