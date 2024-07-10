@@ -10,12 +10,12 @@ function GoldenLeafComp() {
       <div className='hidden lg:flex ml-3'> 
         <div className='p-0.5'>
           <Link href={'/goldenLeaf'}>
-            <img src='/assets/images/VR_GOLDEN_LEAF/VR_GOLDEN_LEAF_05.jpeg' alt='VEST-1' className='w-[400px]' />
+            <img src='/assets/images/VR_GOLDEN_LEAF/VR_GOLDEN_LEAF_05.webp' alt='VEST-1' className='w-[400px]' />
           </Link>
         </div>       
         <div className='p-0.5'>
           <Link href={'/goldenLeaf'}>
-            <img src='/assets/images/VR_GOLDEN_LEAF/VR_GOLDEN_LEAF_08.jpeg' alt='VEST-2' className='w-[400px]' />
+            <img src='/assets/images/VR_GOLDEN_LEAF/VR_GOLDEN_LEAF_08.webp' alt='VEST-2' className='w-[400px]' />
           </Link>
         </div>
         <div className='p-0.5 w-[404px]'>
