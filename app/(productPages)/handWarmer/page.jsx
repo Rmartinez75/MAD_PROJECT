@@ -8,19 +8,19 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE1/1.png',
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE1/2.png',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE1/1.webp',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE1/2.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE2/4.png',
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE2/5.png',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE2/4.webp',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE2/5.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/2.png',
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/4.jpeg',
-  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/5.jpeg',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/2.webp',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/4.webp',
+  '/assets/images/VR_HAND_WARMERS/VR-SHEATH-WARMER/IMAGE3/5.webp',
   ]
 
 function page() {
