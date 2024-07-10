@@ -8,19 +8,19 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/1.png',
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/2.png',
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/3.png',
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/4.png',
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/5.png',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/1.webp',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/2.webp',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/3.webp',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/4.webp',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE1/5.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE2/2.jpeg',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE2/2.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE3/1.jpeg',
+  '/assets/images/VR_NFC_SHORTS/VR-NFC-SHORTS/IMAGE3/1.webp',
   ]
 
 function page() {
