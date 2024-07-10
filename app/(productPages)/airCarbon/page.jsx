@@ -8,21 +8,21 @@ import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import '@styles/pages.css'
 
 const largeImageSlides = [
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE1/1.png',
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE1/2.png',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE1/1.webp',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE1/2.webp',
 ]
 
 const largeImageSlides2 = [
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE2/1.png',
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE2/2.png',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE2/1.webp',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE2/2.webp',
 ]
 
 const smallTopSlides = [
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE3/1.jpeg',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE3/1.webp',
   ]
 
 const smallBottomSlides = [
-  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE4/2.jpeg',
+  '/assets/images/VR_AIR_CARBON/VR-AIR-CARBON/IMAGE4/2.webp',
   ]
 
 function page() {
